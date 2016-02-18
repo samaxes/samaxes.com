@@ -70,10 +70,12 @@ params:
 
   # Header
   headerTitle: "samaxes"
-  headerBackground: "/img/desk.jpg"
+  #headerBackground: "/img/desk.jpg"
 
   # Sidebar
   avatar: "/img/profile-image.jpg"
+  avatar2x: "/img/profile-image@2x.jpg"
+  avatar3x: "/img/profile-image@3x.jpg"
   author: "Samuel Santos"
   #location: "Coimbra, Portugal"
 

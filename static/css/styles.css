@@ -1,0 +1,235 @@
+/* -----------------------------------------------------------------------------
+   -----------------------------------------------------------------------------
+
+   Theme: Minimalist Theme (https://github.com/rriegger/MinimalisticBlogTheme)
+   Version: 1.0
+   Author: Raphael Riegger (http://rriegger.com)
+   License: Apache License Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+
+   -----------------------------------------------------------------------------
+   -----------------------------------------------------------------------------*/
+body {
+  color: #222222;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  transition: all 0.3s ease; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700; }
+
+a {
+  text-decoration: none;
+  color: #3d92c9;
+  transition: all 0.3s ease; }
+  a:hover {
+    color: #222222; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #222222; }
+  h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #3d92c9; }
+
+hr {
+  border: 0;
+  border-top: 1px #E4E4E4 solid;
+  margin: 40px 0; }
+
+.post ul li {
+  line-height: 28px;
+  font-size: 15px; }
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 50px 0 0 0; }
+
+.author {
+  text-align: center;
+  width: 25%;
+  float: left;
+  margin: 20px 5% 0px 5%; }
+
+.content {
+  width: 60%;
+  margin-right: 5%;
+  float: right; }
+
+.site-header {
+  background: #2a373d url(../img/header-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  height: 300px;
+  transition: all 0.3s ease; }
+
+.site-header h2 {
+  margin: 0;
+  font-size: 74px;
+}
+
+.profile-image {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%; }
+
+.post h2 {
+  margin-top: 0; }
+
+.post p {
+  line-height: 28px; }
+
+.post {
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #ececec; }
+
+.post img {
+  max-width: 100%;
+  height: auto; }
+
+.post-info {
+  color: #a2a2a2;
+  margin-bottom: 40px;
+}
+
+.share-buttons {
+  list-style: none;
+  padding: 0; }
+
+.share-buttons li {
+  display: inline;
+  font-size: 13px;
+  color: #979797;
+  margin-right: 4px; }
+
+.share-buttons li a {
+  font-size: 15px; }
+
+.comments {
+  margin-bottom: 60px; }
+
+.pagination {
+  position: relative;
+  height: 35px;
+  width: 100%;
+  margin-bottom: 60px; }
+
+.btn {
+  border: solid 1px #ececec;
+  background-color: #fff;
+  width: 100px;
+  height: 35px;
+  display: block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 13px;
+  color: #000; }
+  .btn:hover {
+    background-color: #2a373d;
+    border-color: #2a373d;
+    color: #fff; }
+
+.home {
+  width: 140px; }
+
+.newer {
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.older {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.counter {
+  text-align: center;
+  line-height: 35px;
+  font-size: 13px;
+  color: #979797; }
+
+.author p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px; }
+
+.author p.name {
+  font-size: 14px;
+  margin: 10px 0; }
+
+.author p.address {
+  color: #979797; }
+
+.author p.link {
+  margin-bottom: 10px; }
+
+.author ul.social {
+  list-style: none;
+  display: inline;
+  padding: 0; }
+
+.author ul.social li {
+  display: inline; }
+
+.author ul.social li a {
+  padding: 5px;
+  font-size: 20px; }
+
+.main-footer {
+  background-color: #f3f3f3;
+  text-align: center;
+  color: #a2a2a2; }
+
+.main-footer .container {
+  padding: 30px 0; }
+
+.main-footer a {
+  color: #3d92c9; }
+  .main-footer a:hover {
+    color: #222222; }
+
+.main-footer p {
+  font-size: 12px; }
+
+@media only screen and (min-width: 720px) and (max-width: 1199px) {
+  .container {
+    width: 100%; }
+
+  .site-header h2 {
+      font-size: 56px;
+  }
+}
+@media only screen and (max-width: 719px) {
+  .container {
+    width: 90%;
+    padding-top: 25px; }
+
+  .author, .content {
+    width: 100%;
+    margin: 0; }
+
+  .site-header {
+    height: 180px;
+    transition: all 0.3s ease; }
+
+  .site-header h2 {
+    font-size: 36px;
+    background-size: 90px 74px; } }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }

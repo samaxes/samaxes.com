@@ -1,0 +1,116 @@
+/* Custom
+------------------------------------------------------------------ */
+
+/* Typography */
+code, kbd, pre, samp {
+  font-family: "Source Code Pro", Menlo, Monaco, Consolas, monospace;
+}
+
+/* Pages */
+.page {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Tables */
+table {
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #e5e5e5;
+  padding: .25rem .5rem;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+/* Figures and images */
+figure,
+img {
+  max-width: 100%;
+}
+figure {
+  display: inline-block;
+  text-align: center;
+}
+figure.side-by-side {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 49%;
+  vertical-align: top;
+}
+
+/* Position elements */
+.center-block {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/* Menu */
+.main-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-menu li {
+  display: inline-block;
+}
+.main-menu li a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+.main-menu li a:hover {
+  color: #3d92c9;
+}
+
+
+/* Carbon Ads
+------------------------------------------------------------------ */
+
+#carbonads {
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 60px auto;
+  max-width: 300px;
+}
+
+#carbonads .carbon-wrap {
+	background: rgba(245, 245, 245, 0.7);
+	border: 1px solid rgba(238, 238, 238, 0.7);
+	border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  text-align: left;
+}
+
+#carbonads .carbon-img {
+  flex-shrink: 0;
+	height: 100px;
+	margin-right: 10px;
+	width: 130px;
+}
+
+#carbonads .carbon-text {
+	color: #222;
+	font-size: 80%;
+	line-height: 1.3;
+	margin-top: 5px;
+  width: 138px;
+}
+
+#carbonads .carbon-poweredby {
+	color: #999;
+  display: block;
+	font-size: 65%;
+  margin: 5px 10px;
+  text-align: right;
+}

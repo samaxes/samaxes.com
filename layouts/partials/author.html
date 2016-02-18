@@ -1,0 +1,11 @@
+<aside class="author">
+  <img class="profile-image" src="{{ .Site.Params.avatar | absURL }}" alt="{{ .Site.Params.author }}" />
+  <p class="name">{{ .Site.Data.l10n.author.by }}
+  <strong>{{ .Site.Params.author }}</strong></p>
+  <p class="address">{{ .Site.Params.location }}</p>
+  <p class="link"></p>
+  <ul class="social">
+    {{ partial "social" . }}
+  </ul>
+  <script async src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=samaxescom" id="_carbonads_js"></script>
+</aside>

@@ -1,0 +1,100 @@
+# Hugo base configurations
+baseurl: "https://samaxes.com/"
+title: "samaxes"
+languageCode: "en-EN"
+canonifyURLs: true # enable this to turn all relative URLs into absolute URLs using `baseurl`.
+metaDataFormat: "yaml"
+disqusShortname: "samaxes"
+permalinks:
+  post: "/:year/:month/:slug/"
+taxonomies:
+  category: "categories"
+  tag: "tags"
+
+# Markdown rendering engine used in Hugo
+blackfriday:
+  fractions: false
+  hrefTargetBlank: true
+  plainIdAnchors: true
+
+#theme: "hyde-x"
+#author:
+#  name: "Samuel Santos"
+#params:
+#  # Used when a given page doesn't set its own.
+#  defaultDescription: "Tech tips and other random ramblings by Samuel Santos."
+#  defaultKeywords: "java,javascript,web,open source,code,programming"
+#
+#  # Changes sidebar background and link/accent colours.
+#  # See below for more colour options.
+#  # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
+#  theme: "theme-base-0d"
+#
+#  # Select a syntax highight.
+#  # Check the static/css/highlight directory for options.
+#  highlight: "solarized_dark"
+#
+#  # Displays under the author name in the sidebar, keep it short.
+#  # You can use markdown here.
+#  tagline: "Java developer, Open Source hacker, Web technologist, JUG Leader."
+#
+#  # Text for the top menu link, which goes the root URL for the site.
+#  # Default (if omitted) is "Blog".
+#  home: "Home"
+#
+#  # Metadata used to drive integrations.
+#  googleAuthorship: "samaxes"
+#  googleAnalytics: "UA-268112-1"
+#  gravatarHash: "824992937a64547660d04df008c95230"
+#  googleVerificationHash: "Mkq_9uJVZOHV_kEheLXBKI-CDrUOOCgUMytrbPUhnY8"
+#  bingVerificationHash: "89377D1E58763891A88639AF52B837D8"
+#
+#  # Sidebar social links, these must be full URLs.
+#  github: "https://github.com/samaxes"
+#  #bitbucket: "https://bitbucket.org/samaxes/"
+#  #stackOverflow: "https://stackoverflow.com/users/207434/samaxes"
+#  linkedin: "https://www.linkedin.com/in/samaxes"
+#  #googleplus: "https://plus.google.com/+samaxes"
+#  #facebook: ""
+#  twitter: "https://twitter.com/samaxes"
+#  #youtube: "https://www.youtube.com/user/samaxes"
+#
+#  # Other social-like sidebar links
+#  rss: true  # switch to true to enable RSS icon link
+#  #flattr: ""  # populate with your flattr uid
+
+theme: "hugo-minimalist-theme"
+params:
+  defaultDescription: "Tech tips and other random ramblings by Samuel Santos."
+  defaultKeywords: "java,javascript,web,open source,code,programming"
+
+  # Header
+  headerTitle: "samaxes"
+  headerBackground: "/img/desk.jpg"
+
+  # Sidebar
+  avatar: "/img/profile-image.jpg"
+  author: "Samuel Santos"
+  #location: "Coimbra, Portugal"
+
+  # Footer
+  license: "Licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/)."
+  powerby: "Powered by [Hugo](https://gohugo.io)."
+
+  # Metadata used to drive integrations.
+  googleAuthorship: "samaxes"
+  #googleAnalytics: "UA-268112-1"
+  googleVerificationHash: "Mkq_9uJVZOHV_kEheLXBKI-CDrUOOCgUMytrbPUhnY8"
+  bingVerificationHash: "89377D1E58763891A88639AF52B837D8"
+
+social:
+  # Add your social network accounts to the profile section on the left
+  # by entering your username. The links to your account will be
+  # create automatically.
+  twitter  : "samaxes"
+  linkedin : "samaxes"
+  github   : "samaxes"
+  #flickr   : "samaxes"
+  #vimeo    : "samaxes"
+  #spotify  : "samaxes"
+  #gplus    : "samaxes"

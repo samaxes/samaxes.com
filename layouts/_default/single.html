@@ -1,0 +1,14 @@
+{{ partial "header" . }}
+
+<div class="container clearfix">
+    <main role="main" class="content">
+        <article class="post page">
+            <a class="btn home" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo; {{ .Site.Data.l10n.article.back_to_home }}</a>
+            <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+            {{ .Content}}
+        </article>
+    </main>
+    {{ partial "author" . }}
+</div>
+
+{{ partial "footer" . }}

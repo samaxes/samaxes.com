@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Site description -->
+    {{ with .Description }}
+      <meta name="description" content="{{ . }}">
+    {{ end }}
+    {{ if .IsHome }}
+      <meta name="description" content="{{ .Site.Params.defaultDescription }}">
+    {{ end }}
+    {{ if .Params.tags }}
+      <meta name="keywords" content="{{ delimit .Params.tags ", " }}">
+    {{ end }}
+    {{ if .IsHome }}
+      <meta name="keywords" content="{{ .Site.Params.defaultKeywords }}">
+    {{ end }}
+
+    <!-- Webmaster tools verification -->
+    {{ with .Site.Params.googleVerificationHash }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.bingVerificationHash }}<meta name="msvalidate.01" content="{{ . }}">{{ end }}
+
+    <title>{{ if not .IsHome }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair+Display:400,700|Lato:400,400italic,600|Source+Code+Pro">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "/css/styles.css" | absURL }}">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/solarized-dark.min.css">
+    <link rel="stylesheet" href="{{ "/css/custom.css" | absURL }}">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!-- Icons -->
+    <link rel="icon" href="{{ "/favicon.ico" | absURL }}">
+    <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | absURL }}">
+
+    <!-- RSS -->
+    {{ if .RSSlink }}
+      <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
+      <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
+    {{ end }}
+
+    <!-- Google authorship -->
+    {{ with .Site.Params.googleAuthorship }}<link rel="author" href="https://plus.google.com/+{{ . }}">{{ end }}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="center-block">
+        <h2>{{ .Site.Params.headerTitle }}</h2>
+        {{ if .Site.Menus.main }}
+          <ul class="main-menu">
+            {{ range .Site.Menus.main }}
+              <li><a href="{{ .URL | absURL }}">{ {{ .Name }} }</a></li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+    </header>

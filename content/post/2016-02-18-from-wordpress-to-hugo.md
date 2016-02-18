@@ -13,9 +13,9 @@ tags:
 I had been thinking about moving my blog from [WordPress](https://wordpress.org/) to a static site for a while. Today I give you the new [Go](https://golang.org/) backed blog.
 
 <!--
-This is a three-part blog post, the first covering why I moved to [Hugo](http://gohugo.io). [Part two]({{< ref "post/2016-02-20-static-site-hosting.md" >}}) will cover hosting. And part three will cover the performance gains.
+This is a three-part blog post, the first covering why I moved to [Hugo](https://gohugo.io). [Part two]({{< ref "post/2016-02-20-static-site-hosting.md" >}}) will cover hosting. And part three will cover the performance gains.
 -->
-This is a three-part blog post, the first covering why I moved to [Hugo](http://gohugo.io). Part two will cover hosting. And part three will cover the performance benefits.
+This is a three-part blog post, the first covering why I moved to [Hugo](https://gohugo.io). Part two will cover hosting. And part three will cover the performance benefits.
 
 These posts are not intended as walkthrough on how to do it yourself, but simply sharing my experience hoping to impart some useful knowledge along the way.
 
@@ -26,15 +26,15 @@ These posts are not intended as walkthrough on how to do it yourself, but simply
 
 Nothing performs as good as a static site. Caching gets much easier, performance goes up, and are far more secure.
 
-Static sites can be hosted anywhere, including [GitHub Pages](https://pages.github.com/), [Aerobatic](https://www.aerobatic.com/), [Amazon S3](http://aws.amazon.com/s3/), [Heroku](https://www.heroku.com/), [Google Cloud Storage](http://cloud.google.com/storage/), [Surge](http://surge.sh/), [Netlify](https://www.netlify.com/) and [more](http://designrope.com/toolbox/static-web-hosting/), and work well with CDNs. They run without dependencies on expensive runtimes like PHP and without dependencies on any databases. I've been using [Digital Ocean](https://www.digitalocean.com/?refcode=650226cfe04d) Cloud hosting for the last 2 years. $5/mo is not that expensive, but solutions like [GitHub Pages](https://pages.github.com) or [Aerobatic](https://www.aerobatic.com/) are free and your site is hosted directly from your Git repositories, making it super easy to publish and work offline. Just edit, push, and your changes are live.
+Static sites can be hosted anywhere, including [GitHub Pages](https://pages.github.com/), [Aerobatic](https://www.aerobatic.com/), [Amazon S3](https://aws.amazon.com/s3/), [Heroku](https://www.heroku.com/), [Google Cloud Storage](https://cloud.google.com/storage/), [Surge](https://surge.sh/), [Netlify](https://www.netlify.com/) and [more](http://designrope.com/toolbox/static-web-hosting/), and work well with CDNs. They run without dependencies on expensive runtimes like PHP and without dependencies on any databases. I've been using [Digital Ocean](https://www.digitalocean.com/?refcode=650226cfe04d) Cloud hosting for the last 2 years. $5/mo is not that expensive, but solutions like [GitHub Pages](https://pages.github.com) or [Aerobatic](https://www.aerobatic.com/) are free and your site is hosted directly from your Git repositories, making it super easy to publish and work offline. Just edit, push, and your changes are live.
 
 ## The static site generators
 
-There are plenty of static site generators out there. [Jekyll](http://jekyllrb.com), [Octopress](http://octopress.org), [Hexo](https://hexo.io), etc. Check [StaticGen](https://www.staticgen.com) for the top Open Source static site generators.
+There are plenty of static site generators out there. [Jekyll](https://jekyllrb.com), [Octopress](http://octopress.org), [Hexo](https://hexo.io), etc. Check [StaticGen](https://www.staticgen.com) for the top Open Source static site generators.
 
 I wanted one that was easy to use and quick to compile the site for updates.
 
-In the end, I have chosen [Hugo](http://gohugo.io).
+In the end, I have chosen [Hugo](https://gohugo.io).
 
 ### Why Hugo?
 

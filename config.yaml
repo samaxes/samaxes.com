@@ -2,7 +2,7 @@
 baseurl: "https://samaxes.com/"
 title: "samaxes"
 languageCode: "en-EN"
-canonifyURLs: true # enable this to turn all relative URLs into absolute URLs using `baseurl`.
+#canonifyURLs: true # enable this to turn all relative URLs into absolute URLs using `baseurl`.
 metaDataFormat: "yaml"
 disqusShortname: "samaxes"
 permalinks:
@@ -83,7 +83,7 @@ params:
 
   # Metadata used to drive integrations.
   googleAuthorship: "samaxes"
-  #googleAnalytics: "UA-268112-1"
+  googleAnalytics: "UA-268112-1"
   googleVerificationHash: "Mkq_9uJVZOHV_kEheLXBKI-CDrUOOCgUMytrbPUhnY8"
   bingVerificationHash: "89377D1E58763891A88639AF52B837D8"
 

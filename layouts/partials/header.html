@@ -29,17 +29,17 @@
     <!-- CSS -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair+Display:400,700|Lato:400,400italic,600|Source+Code+Pro">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ "/css/normalize.css" | absURL }}">
-    <link rel="stylesheet" href="{{ "/css/styles.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/solarized-dark.min.css">
-    <link rel="stylesheet" href="{{ "/css/custom.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ .Permalink }}">
 
     <!-- Icons -->
-    <link rel="icon" href="{{ "/favicon.ico" | absURL }}">
-    <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | absURL }}">
+    <link rel="icon" href="{{ "/favicon.ico" | relURL }}">
+    <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relURL }}">
 
     <!-- RSS -->
     {{ if .RSSlink }}

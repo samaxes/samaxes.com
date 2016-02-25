@@ -1,6 +1,6 @@
 ---
 title: "Moving to a Static Website, part 2: Hosting"
-date: 2016-02-20
+date: 2016-02-25
 slug: static-site-hosting
 categories:
   - Web
@@ -9,7 +9,6 @@ tags:
   - CloudFront
   - Route 53
   - S3
-draft: true
 ---
 
 This is the second part of a three-part blog post covering my move from WordPress to Hugo, a static website generator. This blog post deals with hosting on [Amazon AWS](https://aws.amazon.com/) cloud infrastructure.
@@ -35,15 +34,13 @@ Unfortunately, GitHub Pages does not support HTTPS for custom domains nor does i
 
 After doing some research, I realized I could host my static site on [Amazon S3](https://aws.amazon.com/s3/) fronted by [Amazon CloudFront](https://aws.amazon.com/cloudfront/) CDN for almost nothing the next year using the free tier. After that, the cost looks to be less than a dollar a month.
 
-Although the Amazon S3 / CloudFront combination suffers from the same drawback as GitHub Pages / CloudFlare (Amazon S3 does not support HTTPS), I find preferable because it allows control over file-level response headers, so you can set things like `Cache-Control` for optimal performance.
+Although the Amazon S3 / CloudFront combination suffers from the same drawback as GitHub Pages / CloudFlare (Amazon S3 does not support HTTPS!), I find it preferable because it allows control over file-level response headers, so you can set things like `Cache-Control` for optimal performance.
 
 ## Amazon S3 Buckets
 
-The first thing we need to do is to create two buckets to support requests from both the root domain such as `example.com` and subdomain such as `www.example.com`. One bucket will contain the content and you will configure the other bucket to redirect requests.
+The first thing we need to do is to create two buckets to support requests from both the root domain such as `example.com` and subdomain such as `www.example.com`. One bucket will contain the content and the other will redirect requests to the first.
 
 This is not needed when using CloudFront, as all requests will be directed to your CloudFront distribution. However, you would end up having your site available on two different domains (`example.com` and `www.example.com`), splitting the precious SEO juice between them and screwing-up bookmarking. Furthermore, as S3 buckets namespaces are shared by all users, you should better name it according to your website, just in case you may decide to drop CloudFront one day.
-
-To start, open ACM console at https://console.aws.amazon.com/s3.
 
 ### Create the buckets
 
@@ -57,7 +54,7 @@ Open Amazon S3 console at https://console.aws.amazon.com/s3 and execute the foll
 
 To upload your content using the console UI, execute the following steps:
 
-1. Select the root domain bucket and choose **Actions**, then **Upload**.
+1. Select the root domain bucket (`example.com`) and choose **Actions**, then **Upload**.
 
 2. Select the files to upload and press **Start Upload**.
 
@@ -108,7 +105,7 @@ We now should have a fast static website for people near our Amazon S3 region, b
 
 It's time to introduce CloudFront to the game. But before that, we need a SSL/TLS certificate to support HTTPS.
 
-## Create a certificate
+## Amazon Certificate Manager SSL/TLS certificates
 
 Open ACM console at https://console.aws.amazon.com/acm and execute the following steps:
 
@@ -118,11 +115,11 @@ Open ACM console at https://console.aws.amazon.com/acm and execute the following
 
 3. In the review page, verify that the information you entered is correct and choose **Confirm and request**.
 
-## Create CloudFront distributions
+## Amazon CloudFront distributions
 
 Time to make our website fast to everyone in the world thanks to Amazon's CDN.
 
-Open CloudFront console at https://console.aws.amazon.com/cloudfront and execute the following steps (_repeat the process for each bucket you created before_):
+Open CloudFront console at https://console.aws.amazon.com/cloudfront and execute the following steps (_repeat the process for each S3 bucket you created before_):
 
 1. Choose **Create Distribution**.
 
@@ -132,7 +129,7 @@ Open CloudFront console at https://console.aws.amazon.com/cloudfront and execute
 
     **WARN:** Since your Amazon S3 bucket is configured as a website endpoint, make sure that:
 
-    1. In the **Origin Domain Name** field, you enter the Amazon S3 static website hosting endpoint for your bucket; do not select the bucket name from the list.
+    1. In the **Origin Domain Name** field, you enter the Amazon S3 static website hosting endpoint for your bucket; **do not select the bucket name from the list**.
 
     2. In the **Origin Protocol Policy** field, you must specify **HTTP Only**. Amazon S3 doesn't support HTTPS connections in that configuration.
 
@@ -144,7 +141,7 @@ My distribution for the root domain looks like this (_Click to enlarge_):
 
 To test your website, copy your CloudFront domain name (something like `d111111abcdef8.cloudfront.net`) and open it on your browser.
 
-## Create a Route 53 hosted zone
+## Amazon Route 53 hosted zone
 
 Finally, lets make our site URL prettier by pointing our custom root domain to the CloudFront distributions we just created.
 
@@ -162,8 +159,10 @@ Open Route 53 console at https://console.aws.amazon.com/route53 and execute the 
 
     2. Select **Create Record Set**, enter `www` for the **Name**, choose "Yes" for **Alias** and on the **Alias Target** select your CloudFront distribution.
 
+    3. Go to your registrar and replace your name servers with those of Route 53.
+
 My hosted zone looks like this (_Click to enlarge_):
 
 {{< figure src="/img/aws/route53-hosted-zone.png" link="/img/aws/route53-hosted-zone.png" caption="Route 53 hosted zone example" >}}
 
-Now go to your registrar and replace the nameservers with those of Route 53.
+Now relax and wait for the propagation of your DNS changes. Name server changes usually take 24 to 48 hours to fully start working.

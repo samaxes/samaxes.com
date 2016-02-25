@@ -12,10 +12,7 @@ tags:
 
 I had been thinking about moving my blog from [WordPress](https://wordpress.org/) to a static site for a while. Today I give you the new [Go](https://golang.org/) backed blog.
 
-<!--
-This is a three-part blog post, the first covering why I moved to [Hugo](https://gohugo.io). [Part two]({{< ref "post/2016-02-20-static-site-hosting.md" >}}) will cover hosting. And part three will cover the performance gains.
--->
-This is a three-part blog post, the first covering why I moved to [Hugo](https://gohugo.io). Part two will cover hosting. And part three will cover the performance benefits.
+This is a three-part blog post, the first covering why I moved to [Hugo](https://gohugo.io). [Part two]({{< ref "post/2016-02-25-static-site-hosting.md" >}}) will cover hosting. And part three will cover the performance benefits.
 
 These posts are not intended as walkthrough on how to do it yourself, but simply sharing my experience hoping to impart some useful knowledge along the way.
 

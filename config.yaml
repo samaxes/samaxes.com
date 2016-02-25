@@ -65,7 +65,7 @@ blackfriday:
 
 theme: "hugo-minimalist-theme"
 params:
-  defaultDescription: "Coding tips and other tech ramblings by Samuel Santos."
+  defaultDescription: "Coding tips and other tech ramblings by Java developer, Web technologist, and Open Source hacker Samuel Santos."
   defaultKeywords: "Code,Programming,Java,JavaScript,Web,Open Source,Samuel,Santos"
 
   # Header

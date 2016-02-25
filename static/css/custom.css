@@ -63,12 +63,8 @@ figure.side-by-side {
   display: inline-block;
 }
 .main-menu li a {
-  color: #fff;
   display: inline-block;
   padding: 10px;
-}
-.main-menu li a:hover {
-  color: #3d92c9;
 }
 
 

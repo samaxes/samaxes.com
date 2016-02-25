@@ -53,7 +53,14 @@
   <body>
     <header class="site-header">
       <div class="center-block">
-        <h2>{{ .Site.Params.headerTitle }}</h2>
+        {{ if .IsPage }}
+        <div class="site-title">
+          <a href="{{ .Site.BaseURL }}">{{ .Site.Params.headerTitle }}</a>
+        </div>
+        {{ else }}
+        <h1 class="site-title">{{ .Site.Params.headerTitle }}</h1>
+        {{ end }}
+
         {{ if .Site.Menus.main }}
           <ul class="main-menu">
             {{ range .Site.Menus.main }}

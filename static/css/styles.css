@@ -67,9 +67,18 @@ hr {
   height: 300px;
   transition: all 0.3s ease; }
 
-.site-header h2 {
+.site-header .site-title {
   margin: 0;
+  font-family: "Playfair Display", serif;
   font-size: 74px;
+  font-weight: 700;
+}
+
+.site-header a {
+  color: #fff;
+}
+.site-header a:hover {
+  color: #3d92c9;
 }
 
 .profile-image {
@@ -203,7 +212,7 @@ hr {
   .container {
     width: 100%; }
 
-  .site-header h2 {
+  .site-header .site-title {
       font-size: 56px;
   }
 }
@@ -220,7 +229,7 @@ hr {
     height: 180px;
     transition: all 0.3s ease; }
 
-  .site-header h2 {
+  .site-header .site-title {
     font-size: 36px;
     background-size: 90px 74px; } }
 

@@ -21,10 +21,10 @@ build:
   # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - arjen/hugo-build:
-      version: "0.15"
-      theme: hugo-minimalist-theme
-      config: config.yaml
-      disable_pygments: true
+        version: "0.15"
+        theme: hugo-minimalist-theme
+        config: config.yaml
+        disable_pygments: true
 
 # deploy:
 #   steps:

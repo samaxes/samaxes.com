@@ -11,9 +11,9 @@ tags:
   - S3
 ---
 
-This is the second part of a three-part blog post covering my move from WordPress to Hugo, a static website generator. This blog post deals with hosting on [Amazon AWS](https://aws.amazon.com/) cloud infrastructure.
+This is the second part of a four-part blog post covering my move from WordPress to Hugo, a static website generator. This blog post deals with hosting on [Amazon AWS](https://aws.amazon.com/) cloud infrastructure.
 
-If you haven't read the first part, please do so at [Moving to a Static Website, part 1: From WordPress to Hugo]({{< ref "post/2016-02-18-from-wordpress-to-hugo.md" >}}).
+If you haven't read the first part, you may find it at [Moving to a Static Website, part 1: From WordPress to Hugo]({{< ref "post/2016-02-18-static-site-from-wordpress-to-hugo.md" >}}).
 
 <!--more-->
 ---

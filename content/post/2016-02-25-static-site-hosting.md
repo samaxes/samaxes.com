@@ -6,7 +6,9 @@ categories:
   - Web
 tags:
   - Amazon
+  - Certificate Manager
   - CloudFront
+  - Hugo
   - Route 53
   - S3
 ---

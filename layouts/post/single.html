@@ -10,10 +10,10 @@
             {{ .Content}}
             {{ partial "article-share" . }}
         </article>
-        <div class="comments">
+        <section class="comments">
             <h2>{{ .Site.Data.l10n.comments.comments }}</h2>
             {{ template "_internal/disqus.html" . }}
-        </div>
+        </section>
     </main>
     {{ partial "author" . }}
 </div>

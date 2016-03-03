@@ -24,7 +24,7 @@
     {{ with .Site.Params.googleVerificationHash }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
     {{ with .Site.Params.bingVerificationHash }}<meta name="msvalidate.01" content="{{ . }}">{{ end }}
 
-    <title>{{ if not .IsHome }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}</title>
+    <title>{{ if not .IsHome }}{{ .Title }} &middot; {{ .Site.Title }}{{ else }}{{ .Site.Params.defaultTitle }}{{ end }}</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair+Display:400,700|Lato:400,400italic,600|Source+Code+Pro">

@@ -1,7 +1,7 @@
 # Hugo base configurations
 baseurl: "https://samaxes.com/"
-title: "samaxes - The personal website of Samuel Santos"
-languageCode: "en-EN"
+title: "samaxes"
+languageCode: "en"
 #canonifyURLs: true # enable this to turn all relative URLs into absolute URLs using `baseurl`.
 metaDataFormat: "yaml"
 disqusShortname: "samaxes"
@@ -65,6 +65,7 @@ blackfriday:
 
 theme: "hugo-minimalist-theme"
 params:
+  defaultTitle: "samaxes · The personal website of Samuel Santos"
   defaultDescription: "Coding tips and other tech ramblings by Java developer, Web technologist, and Open Source hacker Samuel Santos."
   defaultKeywords: "Code,Programming,Java,JavaScript,Web,Open Source,Samuel,Santos"
 

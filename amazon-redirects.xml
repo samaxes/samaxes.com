@@ -1,0 +1,11 @@
+<RoutingRules>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2012/06/comparing-openddr-to-wurfl/</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <HostName>samaxes.com</HostName>
+      <ReplaceKeyPrefixWith>2012/10/comparing-device-description-repositories/</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+</RoutingRules>

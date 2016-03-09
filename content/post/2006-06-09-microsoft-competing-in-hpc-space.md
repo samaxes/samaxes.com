@@ -3,7 +3,7 @@ title: Microsoft competing in HPC space
 date: 2006-06-09 23:27:21+00:00
 slug: microsoft-competing-in-hpc-space
 categories:
-  - Performance
+  - Server-side
 tags:
   - Clustering
   - Microsoft

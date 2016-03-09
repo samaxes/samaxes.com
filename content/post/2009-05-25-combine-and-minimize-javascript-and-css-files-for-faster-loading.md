@@ -3,11 +3,12 @@ title: Combine and minimize JavaScript and CSS files for faster loading
 date: 2009-05-25 13:19:17+00:00
 slug: combine-and-minimize-javascript-and-css-files-for-faster-loading
 categories:
-  - Performance
+  - Tools
 tags:
   - Ant
   - Build
   - HTTP
+  - Performance
 ---
 
 ## Reduce HTTP requests

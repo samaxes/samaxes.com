@@ -3,12 +3,13 @@ title: .htaccess - gzip and cache your site for faster loading and bandwidth sav
 date: 2008-04-20 17:32:38+00:00
 slug: htaccess-gzip-and-cache-your-site-for-faster-loading-and-bandwidth-saving
 categories:
-  - Performance
+  - Web
 tags:
   - Apache
   - Cache
   - GZIP
   - HTTP
+  - Performance
 ---
 
 <ins datetime="2011-05-23T17:18:12+00:00">
@@ -16,7 +17,7 @@ tags:
 </ins>
 
 Last week I changed my hosting provider from [Site5](http://www.site5.com/in.php?id=15543) to [NearlyFreeSpeech.NET](http://www.nearlyfreespeech.net/).
-<del datetime="2009-01-01T23:00:43+00:00">Despite the fact that the first one is faster than the second, </del>NFSN is a lot more cheaper (I only pay for what I really use).
+NFSN is a lot more cheaper (I only pay for what I really use).
 
 So in order to speed up my site and save bandwidth (the more I use the more I pay) I use `.htaccess` file to gzip my text based files and optimize cache HTTP headers.
 Although this site is powered by [Wordpress](http://wordpress.org/) which has some really [great plugins](http://ocaoimh.ie/wp-super-cache/) to optimize PHP output I wanted a more generic solution which can be applied to all PHP web applications.

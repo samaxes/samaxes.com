@@ -4,7 +4,7 @@ date: 2016-02-12
 draft: true
 slug: java-web-performance-optimization
 categories:
-  - Performance
+  - Tools
 tags:
   - Build
   - Cache
@@ -12,6 +12,7 @@ tags:
   - HTTP
   - Java
   - Maven
+  - Performance
 ---
 
 This blog already counts several posts about [web performance](/categories/performance), although none of them is about Java tools I developed and tools I use for web performance optimization.

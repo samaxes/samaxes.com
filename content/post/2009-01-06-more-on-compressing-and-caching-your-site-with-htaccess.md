@@ -3,12 +3,13 @@ title: Speed up your site by compressing and caching your content with .htaccess
 date: 2009-01-06 14:00:46+00:00
 slug: more-on-compressing-and-caching-your-site-with-htaccess
 categories:
-  - Performance
+  - Web
 tags:
   - Apache
   - Cache
   - GZIP
   - HTTP
+  - Performance
 ---
 
 <ins datetime="2011-05-23T17:18:12+00:00">

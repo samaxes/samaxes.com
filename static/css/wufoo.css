@@ -38,7 +38,7 @@
 }
 
 input.text, input.search, textarea.textarea {
-  background: none;
+  background: #fff;
   border-color: #ececec;
 }
 

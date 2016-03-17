@@ -1,0 +1,47 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title :  Wufoo custom CSS for samaxes.com
+ Author : Samuel Santos
+ URL :    http://samaxes.com
+
+ Last Updated : March 17, 2016
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+@import url(https://fonts.googleapis.com/css?family=Lato|Playfair+Display:700);
+
+.wufoo {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.wufoo h1,
+.wufoo h2,
+.wufoo h3,
+.wufoo h4,
+.wufoo h5,
+.wufoo h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.wufoo .info {
+  display: none;
+}
+
+.wufoo input.text,
+.wufoo input.search,
+.wufoo input.file,
+.wufoo textarea.textarea,
+.wufoo select.select {
+  font: inherit;
+}
+
+input.text, input.search, textarea.textarea {
+  background: none;
+  border-color: #ececec;
+}
+
+.wufoo .section div {
+  font-size: 1rem;
+}

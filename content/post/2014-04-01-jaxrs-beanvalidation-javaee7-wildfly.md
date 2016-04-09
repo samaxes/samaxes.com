@@ -12,7 +12,7 @@ tags:
   - JBoss
 ---
 
-I have already approached this subject twice in the past. First, on my post [Integrating Bean Validation with JAX-RS in Java EE 6]({{< ref "post/2013-01-10-beanvalidation-with-jaxrs-in-javaee6.md" >}}), describing how to use Bean Validation with JAX-RS in JBoss AS 7, even before this was defined in the [Java EE Platform Specification](https://javaee-spec.java.net/). And later, on an article written for [JAX Magazine](http://jaxenter.com/jax-magazine/JAX-Magazine-2013-06) and posteriorly posted on [JAXenter](http://jaxenter.com/integrating-bean-validation-with-jax-rs-48461.html), using the new standard way defined in Java EE 7 with Glassfish 4 server (the first Java EE 7 certified server).
+I have already approached this subject twice in the past. First, on my post [Integrating Bean Validation with JAX-RS in Java EE 6]({{< ref "post/2013-01-10-beanvalidation-with-jaxrs-in-javaee6.md" >}}), describing how to use Bean Validation with JAX-RS in JBoss AS 7, even before this was defined in the [Java EE Platform Specification](https://javaee-spec.java.net/). And later, on an article written for [JAX Magazine](https://jaxenter.com/jax-magazine/JAX-Magazine-2013-06) and posteriorly posted on [JAXenter](https://jaxenter.com/integrating-bean-validation-with-jax-rs-2-106887.html), using the new standard way defined in Java EE 7 with Glassfish 4 server (the first Java EE 7 certified server).
 
 Now that [WildFly 8](http://wildfly.org/), previously know as JBoss Application Server, has finally reached the final version and has joined the Java EE 7 certified servers club, it's time for a new post highlighting the specificities and differences between these two application servers, GlassFish 4 and WildFly 8.
 
@@ -118,7 +118,7 @@ Unfortunately, with some application servers, the default Validator provider doe
 
 Although WildFly 8 correctly uses the `Accept-Language` HTTP header to choose the correct resource bundle, other servers like GlassFish 4 do not use this header. Therefore, for completeness and easier comparison with the GlassFish code (available under the same [GitHub project](https://github.com/samaxes/jaxrs-beanvalidation-javaee7)), I've also implemented a custom Validator provider for WildFly.
 
-If you want to see a GlassFish example, please visit [Integrating Bean Validation with JAX-RS](http://jaxenter.com/integrating-bean-validation-with-jax-rs-48461.html) on JAXenter.
+If you want to see a GlassFish example, please visit [Integrating Bean Validation with JAX-RS](https://jaxenter.com/integrating-bean-validation-with-jax-rs-2-106887.html) on JAXenter.
 
 1. Add RESTEasy dependency to Maven
 

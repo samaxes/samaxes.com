@@ -13,7 +13,7 @@ tags:
 
 Testing secured EJBs has been historically hard to get right. Up until now, I have been using proprietary techniques like [JBossLoginContextFactory](https://github.com/sfcoy/demos/blob/master/arquillian-security-demo/src/test/java/org/jboss/arquillian/secureejb/JBossLoginContextFactory.java) described in the article [Testing secured EJBs on WildFly 8.1.x with Arquillian](https://developer.jboss.org/wiki/TestingSecuredEJBsOnWildFly81xWithArquillian) to test secured EJBs.
 
-During this year [Devoxx](http://www.devoxx.be/), [David Blevins](https://twitter.com/dblevins), founder of the [Apache TomEE](http://tomee.apache.org/) project - a lightweight Java EE Application Server, brought to my knowledge a little trick we can use to deal with Java EE security in a standard way that works across all Java EE compliant servers.
+During this year [Devoxx](https://devoxx.be/), [David Blevins](https://twitter.com/dblevins), founder of the [Apache TomEE](http://tomee.apache.org/) project - a lightweight Java EE Application Server, brought to my knowledge a little trick we can use to deal with Java EE security in a standard way that works across all Java EE compliant servers.
 
 <!--more-->
 

@@ -9,9 +9,9 @@ tags:
   - SCCS
 ---
 
-One of greatest attractions of [GitHub](https://github.com/) is the community and the tooling that allows this community to share code. Each contributor can clone the repository, make their changes and then send you a [pull request](https://help.github.com/articles/using-pull-requests). As the project maintainer your job is now a whole lot easier and more manageable. No more patch files to worry about.
+One of greatest attractions of [GitHub](https://github.com/) is the community and the tooling that allows this community to share code. Each contributor can clone the repository, make their changes and then send you a [pull request](https://help.github.com/articles/using-pull-requests/). As the project maintainer your job is now a whole lot easier and more manageable. No more patch files to worry about.
 
-Follow the recipe bellow to move your [SVN](http://subversion.apache.org/) repo to [Git](http://git-scm.com/).
+Follow the recipe bellow to move your [SVN](http://subversion.apache.org/) repo to [Git](https://git-scm.com/).
 Best of all, you get to **keep the entire commit history** of your project.
 
 <!--more-->

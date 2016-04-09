@@ -191,6 +191,6 @@ public class PersonServiceTest extends BaseTest<PersonService> {
 
 To see this in action, get this [example source code](http://samaxes.appspot.com/zip/pojo-service-1.0.zip) and run the following [Maven](http://maven.apache.org/) command:
 
-```bash
+```sh
 $ mvn test
 ```

@@ -26,7 +26,7 @@ samaxes = Samuel Santos <samaxes@example.com>
 
 To get a list of the author names that SVN uses, you can run this (on OSX the grep parameter is `-e` for a regular expression instead of the `-P`):
 
-```bash
+```sh
 $ svn log ^/ --xml | grep -P "^<author" | sort -u | perl -pe 's/<author>(.*?)<\/author>/$1 = /' > authors.txt
 ```
 
@@ -36,7 +36,7 @@ $ svn log ^/ --xml | grep -P "^<author" | sort -u | perl -pe 's/<author>(.*?)<\/
 
 Next, create a new Git repository for your project. This will be a local repository for now so there's no need to worry about GitHub just yet:
 
-```bash
+```sh
 $ git svn clone http://my-project.googlecode.com/svn/ --no-metadata --stdlayout --authors-file=../authors.txt my_project
 ```
 
@@ -47,14 +47,14 @@ If `git svn` encounters an SVN committer name that does not exist in the `--auth
 
 The initial clone imports everything including SVN branches and tags, however only a `master` branch is available locally:
 
-```bash
+```sh
 $ git branch
 * master
 ```
 
 The svn-related branches and tags are actually remote branches in Git:
 
-```bash
+```sh
 $ git branch -r
   tags/v1.0
   trunk
@@ -62,26 +62,26 @@ $ git branch -r
 
 So, to move the tags to be proper Git tags, run:
 
-```bash
+```sh
 $ git for-each-ref refs/remotes/tags | cut -d / -f 4- | grep -v @ | while read tagname; do git tag "$tagname" "tags/$tagname"; git branch -r -d "tags/$tagname"; done
 Deleted remote branch tags/v1.0 (was 539f804).
 ```
 
 And move the rest of the references under `refs/remotes` to be local branches:
 
-```bash
+```sh
 $ git for-each-ref refs/remotes | cut -d / -f 3- | grep -v @ | while read branchname; do git branch "$branchname" "refs/remotes/$branchname"; git branch -r -d "$branchname"; done
 Deleted remote branch trunk (was e4b45d8).
 ```
 
 Now we have all the tags and branches locally:
 
-```bash
+```sh
 $ git tag
 v1.0
 ```
 
-```bash
+```sh
 $ git branch
 * master
   trunk
@@ -89,7 +89,7 @@ $ git branch
 
 However, the local `trunk` branch is redundant with our Git `master` branch and should be removed:
 
-```bash
+```sh
 $ git branch -d trunk
 Deleted branch trunk (was e4b45d8).
 ```
@@ -100,19 +100,19 @@ Now all the old branches are real Git branches and all the old tags are real Git
 
 1. Add your new GitHub repository as a remote:
 
-    ```bash
+    ```sh
     $ git remote add origin git@my-git-server:myrepository.git
     ```
 
     If you get the error "**fatal: remote origin already exists**", do the following instead:
 
-    ```bash
+    ```sh
     $ git remote set-url origin git@my-git-server:myrepository.git
     ```
 
 2. Push the code to it:
 
-    ```bash
+    ```sh
     $ git push origin --all
     Counting objects: 32, done.
     Delta compression using up to 2 threads.
@@ -123,7 +123,7 @@ Now all the old branches are real Git branches and all the old tags are real Git
        78ffd8f..f50e329  master -> master
     ```
 
-    ```bash
+    ```sh
     $ git push origin master --tags
     Counting objects: 1, done.
     Writing objects: 100% (1/1), 219 bytes | 0 bytes/s, done.

@@ -57,7 +57,7 @@ OpenDDR is a bit harder to configure. Follow these steps to include OpenDDR in y
 
 2. From the resulting folder, install `bin/OpenDDR-Simple-API-1.0.0.24.jar` and `lib/DDR-Simple-API.jar` into your local Maven repository:
 
-    ```bash
+    ```sh
     $ mvn install:install-file -DgroupId=org.w3c.ddr.simple -DartifactId=DDR-Simple-API -Dversion=2008-03-30 -Dpackaging=jar -Dfile=DDR-Simple-API.jar -DgeneratePom=true -DcreateChecksum=true
     $ mvn install:install-file -DgroupId=org.openddr.simpleapi.oddr -DartifactId=OpenDDR-Simple-API -Dversion=1.0.0.24 -Dpackaging=jar -Dfile=OpenDDR-Simple-API-1.0.0.24.jar -DgeneratePom=true -DcreateChecksum=true
     ```

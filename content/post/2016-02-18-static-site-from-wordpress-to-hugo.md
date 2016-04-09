@@ -43,7 +43,7 @@ Well, for two reasons:
 
 It's written in [Go](https://golang.org/) and the installation is incredibly easy using [Homebrew](http://brew.sh/):
 
-```bash
+```sh
 $ brew install hugo
 ```
 

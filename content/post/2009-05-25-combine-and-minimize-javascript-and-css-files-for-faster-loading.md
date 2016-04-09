@@ -275,7 +275,7 @@ Now that you know the file organization and the build script details; the next s
 
 To execute the script make sure you have [Ant](http://ant.apache.org/) installed (requires [JRE](http://www.java.com/)), go to the project root folder (the folder that contains the `build.xml` file), and execute:
 
-```bash
+```sh
 $ ant     # (executes the default target: `all`)
 ```
 

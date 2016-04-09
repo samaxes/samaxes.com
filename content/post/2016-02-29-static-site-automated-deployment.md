@@ -33,7 +33,7 @@ If you haven't read the first two parts, you may find them at [Moving to a Stati
 
 We don't want the `public` directory version controlled, as we will use Wercker to generate that later on. Therefore, you should add a `.gitignore` file that will exclude this using the following command:
 
-```bash
+```sh
 $ echo "/public" >> .gitignore
 ```
 
@@ -131,7 +131,7 @@ The `s3sync` step synchronises a source directory with an Amazon S3 bucket. The 
 
 After you've created the `wercker.yml` add it to your repository by executing the following commands in your terminal:
 
-```bash
+```sh
 $ git add wercker.yml
 $ git commit -m "Add wercker.yml"
 $ git push origin master

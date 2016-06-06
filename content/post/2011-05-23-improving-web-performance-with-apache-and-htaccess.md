@@ -103,16 +103,16 @@ Rule for setting `Cache-Control` headers:
 ```apache
 # BEGIN Cache-Control Headers
 <ifModule mod_headers.c>
-  <filesMatch ".(ico|jpe?g|png|gif|swf)$">
+  <filesMatch "\.(ico|jpe?g|png|gif|swf)$">
     Header set Cache-Control "public"
   </filesMatch>
-  <filesMatch ".(css)$">
+  <filesMatch "\.(css)$">
     Header set Cache-Control "public"
   </filesMatch>
-  <filesMatch ".(js)$">
+  <filesMatch "\.(js)$">
     Header set Cache-Control "private"
   </filesMatch>
-  <filesMatch ".(x?html?|php)$">
+  <filesMatch "\.(x?html?|php)$">
     Header set Cache-Control "private, must-revalidate"
   </filesMatch>
 </ifModule>
@@ -197,16 +197,16 @@ Copy the following `.htaccess` file into the root directory of your site and enj
 
 # BEGIN Cache-Control Headers
 <ifModule mod_headers.c>
-  <filesMatch ".(ico|jpe?g|png|gif|swf)$">
+  <filesMatch "\.(ico|jpe?g|png|gif|swf)$">
     Header set Cache-Control "public"
   </filesMatch>
-  <filesMatch ".(css)$">
+  <filesMatch "\.(css)$">
     Header set Cache-Control "public"
   </filesMatch>
-  <filesMatch ".(js)$">
+  <filesMatch "\.(js)$">
     Header set Cache-Control "private"
   </filesMatch>
-  <filesMatch ".(x?html?|php)$">
+  <filesMatch "\.(x?html?|php)$">
     Header set Cache-Control "private, must-revalidate"
   </filesMatch>
 </ifModule>

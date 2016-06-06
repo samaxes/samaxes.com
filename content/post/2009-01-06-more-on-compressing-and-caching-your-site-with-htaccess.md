@@ -30,7 +30,7 @@ In order to compress your text files with this Apache's module you just have to 
 
 ```apache
 <ifModule mod_deflate.c>
-  <filesMatch ".(css|js|x?html?|php)$">
+  <filesMatch "\.(css|js|x?html?|php)$">
     SetOutputFilter DEFLATE
   </filesMatch>
 </ifModule>
@@ -43,7 +43,7 @@ A great `.htaccess` file example that will gzip your text files and cache all yo
 ```apache
 # BEGIN Compress text files
 <ifModule mod_deflate.c>
-  <filesMatch ".(css|js|x?html?|php)$">
+  <filesMatch "\.(css|js|x?html?|php)$">
     SetOutputFilter DEFLATE
   </filesMatch>
 </ifModule>
@@ -69,16 +69,16 @@ A great `.htaccess` file example that will gzip your text files and cache all yo
 
 # BEGIN Cache-Control Headers
 <ifModule mod_headers.c>
-  <filesMatch ".(ico|jpe?g|png|gif|swf)$">
+  <filesMatch "\.(ico|jpe?g|png|gif|swf)$">
     Header set Cache-Control "max-age=2592000, public"
   </filesMatch>
-  <filesMatch ".(css)$">
+  <filesMatch "\.(css)$">
     Header set Cache-Control "max-age=604800, public"
   </filesMatch>
-  <filesMatch ".(js)$">
+  <filesMatch "\.(js)$">
     Header set Cache-Control "max-age=216000, private"
   </filesMatch>
-  <filesMatch ".(x?html?|php)$">
+  <filesMatch "\.(x?html?|php)$">
     Header set Cache-Control "max-age=600, private, must-revalidate"
   </filesMatch>
 </ifModule>

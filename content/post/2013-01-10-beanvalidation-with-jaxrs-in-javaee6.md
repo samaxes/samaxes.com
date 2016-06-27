@@ -3,7 +3,7 @@ title: Integrating Bean Validation with JAX-RS in Java EE 6
 date: 2013-01-10 16:07:40+00:00
 slug: beanvalidation-with-jaxrs-in-javaee6
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Bean Validation
   - Internationalization

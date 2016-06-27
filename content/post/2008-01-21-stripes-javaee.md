@@ -3,7 +3,7 @@ title: Stripes framework and Java EE
 date: 2008-01-21 02:10:43+00:00
 slug: stripes-javaee
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - CDI
   - EJB

@@ -3,7 +3,7 @@ title: Java 6 Final Release Available for Download
 date: 2006-12-11 16:45:20+00:00
 slug: java-6-final-release-available-for-download
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - Sun

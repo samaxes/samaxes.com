@@ -3,7 +3,7 @@ title: samaxesJS JavaScript library updates
 date: 2010-04-05 14:26:18+00:00
 slug: samaxesjs-javascript-library-updates
 categories:
-  - Web
+  - Web Development
 tags:
   - DOM
   - JavaScript

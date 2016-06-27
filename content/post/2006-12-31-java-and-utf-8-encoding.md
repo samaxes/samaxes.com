@@ -3,7 +3,7 @@ title: Java and UTF-8 encoding
 date: 2006-12-31 19:36:17+00:00
 slug: java-and-utf-8-encoding
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Encoding
   - Internationalization

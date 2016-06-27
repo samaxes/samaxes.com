@@ -3,7 +3,7 @@ title: Web Core Fonts & Windows Vista
 date: 2007-04-25 23:01:36+00:00
 slug: web-core-fonts-windows-vista
 categories:
-  - Web
+  - Web Development
 tags:
   - Typography
 ---

@@ -3,7 +3,7 @@ title: Validating JAX-RS resource data with Bean Validation in Java EE 7 and Wil
 date: 2014-04-01 13:50:38+00:00
 slug: jaxrs-beanvalidation-javaee7-wildfly
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Bean Validation
   - Internationalization

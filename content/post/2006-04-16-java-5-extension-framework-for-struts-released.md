@@ -3,7 +3,7 @@ title: Java 5 extension framework for Struts released
 date: 2006-04-16 01:40:49+00:00
 slug: java-5-extension-framework-for-struts-released
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - Struts

@@ -3,7 +3,7 @@ title: Zend Framework articles/tutorials
 date: 2006-08-01 22:48:09+00:00
 slug: zend-framework-articlestutorials
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - PHP
   - Zend

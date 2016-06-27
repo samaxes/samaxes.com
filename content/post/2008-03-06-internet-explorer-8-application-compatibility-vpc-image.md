@@ -3,7 +3,7 @@ title: Internet Explorer 8 Application Compatibility VPC Image
 date: 2008-03-06 00:20:34+00:00
 slug: internet-explorer-8-application-compatibility-vpc-image
 categories:
-  - Tools
+  - Development tools
 tags:
   - IE
   - VPC

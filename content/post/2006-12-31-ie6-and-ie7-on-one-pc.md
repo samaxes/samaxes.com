@@ -3,7 +3,7 @@ title: IE6 and IE7 on one PC
 date: 2006-12-31 18:51:15+00:00
 slug: ie6-and-ie7-on-one-pc
 categories:
-  - Tools
+  - Development tools
 tags:
   - IE
 ---

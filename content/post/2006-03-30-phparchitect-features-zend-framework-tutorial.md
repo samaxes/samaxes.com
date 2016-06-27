@@ -3,7 +3,7 @@ title: php|architect features Zend Framework Tutorial
 date: 2006-03-30 22:36:59+00:00
 slug: phparchitect-features-zend-framework-tutorial
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - PHP
   - Zend

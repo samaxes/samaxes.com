@@ -3,7 +3,7 @@ title: Web PHP framework - symfony
 date: 2007-05-01 14:15:40+00:00
 slug: web-php-framework-symfony
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - PHP
   - Symfony

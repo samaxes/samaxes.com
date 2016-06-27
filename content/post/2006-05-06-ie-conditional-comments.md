@@ -3,7 +3,7 @@ title: IE Conditional comments
 date: 2006-05-06 15:10:05+00:00
 slug: ie-conditional-comments
 categories:
-  - Web
+  - Web Development
 tags:
   - CSS
   - IE

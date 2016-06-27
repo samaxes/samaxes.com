@@ -3,7 +3,7 @@ title: IE7 JavaScript library
 date: 2006-08-16 23:09:54+00:00
 slug: ie7-javascript-library
 categories:
-  - Web
+  - Web Development
 tags:
   - CSS
   - IE

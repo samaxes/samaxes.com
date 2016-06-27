@@ -3,7 +3,7 @@ title: samaxesJS JavaScript Controls
 date: 2008-07-23 21:40:22+00:00
 slug: samaxesjs-javascript-controls
 categories:
-  - Web
+  - Web Development
 tags:
   - DOM
   - JavaScript

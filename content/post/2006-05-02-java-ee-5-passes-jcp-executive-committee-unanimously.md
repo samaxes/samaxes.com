@@ -3,7 +3,7 @@ title: Java EE 5 Passes JCP Executive Committee Unanimously
 date: 2006-05-02 18:09:31+00:00
 slug: java-ee-5-passes-jcp-executive-committee-unanimously
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
 ---

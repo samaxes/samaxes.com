@@ -3,7 +3,7 @@ title: Install Internet Explorer 6 in Windows Vista
 date: 2007-12-20 22:41:14+00:00
 slug: install-internet-explorer-6-in-windows-vista
 categories:
-  - Tools
+  - Development tools
 tags:
   - IE
 ---

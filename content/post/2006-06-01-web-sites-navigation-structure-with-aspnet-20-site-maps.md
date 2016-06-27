@@ -3,7 +3,7 @@ title: Web Site's Navigation Structure with ASP.NET 2.0 Site Maps
 date: 2006-06-01 18:54:45+00:00
 slug: web-sites-navigation-structure-with-aspnet-20-site-maps
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - .NET
 ---

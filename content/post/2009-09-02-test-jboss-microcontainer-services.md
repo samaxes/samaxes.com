@@ -3,7 +3,7 @@ title: Unit Testing JBoss 5 Services
 date: 2009-09-02 13:02:45+00:00
 slug: test-jboss-microcontainer-services
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - JBoss

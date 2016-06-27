@@ -3,7 +3,7 @@ title: JBoss Web and PHP Install Tutorial
 date: 2007-07-15 04:24:38+00:00
 slug: jboss-web-and-php-install-tutorial
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - JBoss
   - PHP

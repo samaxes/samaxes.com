@@ -3,7 +3,7 @@ title: Improving web site performance with Apache .htaccess
 date: 2011-05-23 14:44:40+00:00
 slug: improving-web-performance-with-apache-and-htaccess
 categories:
-  - Web
+  - Web Development
 tags:
   - Apache
   - Cache

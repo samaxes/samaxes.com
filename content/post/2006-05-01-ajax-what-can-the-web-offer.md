@@ -3,7 +3,7 @@ title: AJAX, what can the web offer?
 date: 2006-05-01 22:23:03+00:00
 slug: ajax-what-can-the-web-offer
 categories:
-  - Web
+  - Web Development
 tags:
   - AJAX
 ---

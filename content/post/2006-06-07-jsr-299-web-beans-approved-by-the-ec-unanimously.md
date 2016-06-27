@@ -3,7 +3,7 @@ title: Web Beans approved by the EC Unanimously
 date: 2006-06-07 23:40:08+00:00
 slug: jsr-299-web-beans-approved-by-the-ec-unanimously
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - JBoss

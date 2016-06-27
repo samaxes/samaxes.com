@@ -3,7 +3,7 @@ title: Axis 1.4 Read timed out and HTTP 1.1
 date: 2009-04-06 15:03:24+00:00
 slug: axis-14-read-timed-out-and-http-11
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Axis
   - Java

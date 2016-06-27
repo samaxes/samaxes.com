@@ -3,7 +3,7 @@ title: The Best Web 2.0 Software of 2005/2006
 date: 2006-03-19 19:48:14+00:00
 slug: the-best-web-20-software-of-2005
 categories:
-  - Web
+  - Web Development
 tags:
   - Web 2.0
 ---

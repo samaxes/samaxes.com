@@ -3,7 +3,7 @@ title: Where does .NET beat Java?
 date: 2007-05-09 00:45:54+00:00
 slug: where-does-net-beat-java
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - .NET
   - DSL

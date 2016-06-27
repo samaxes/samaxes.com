@@ -3,7 +3,7 @@ title: JBoss Seam 1.0 released
 date: 2006-06-13 23:44:36+00:00
 slug: jboss-seam-10-released
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - JBoss

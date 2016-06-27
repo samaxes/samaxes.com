@@ -3,7 +3,7 @@ title: Comparison between Stripes and JSF
 date: 2007-01-08 22:47:53+00:00
 slug: comparison-between-stripes-and-jsf
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - JSF

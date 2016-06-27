@@ -3,7 +3,7 @@ title: Apache Struts 2 development build
 date: 2006-10-20 00:25:24+00:00
 slug: apache-struts-2-development-build
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - Struts

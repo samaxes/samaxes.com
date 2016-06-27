@@ -3,7 +3,7 @@ title: Run PHP on Google App Engine
 date: 2009-12-14 15:24:44+00:00
 slug: php-on-google-app-engine
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - App Engine
   - Google

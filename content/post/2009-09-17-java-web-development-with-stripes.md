@@ -3,7 +3,7 @@ title: Java Web Development with Stripes framework
 date: 2009-09-17 23:41:33+00:00
 slug: java-web-development-with-stripes
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - Stripes Framework

@@ -3,7 +3,7 @@ title: Java EE Cache Filter
 date: 2008-01-02 03:42:19+00:00
 slug: javaee-cache-filter
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Cache
   - Java

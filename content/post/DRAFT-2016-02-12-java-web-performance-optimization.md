@@ -4,7 +4,7 @@ date: 2016-02-12
 draft: true
 slug: java-web-performance-optimization
 categories:
-  - Tools
+  - Development tools
 tags:
   - Build
   - Cache

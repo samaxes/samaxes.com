@@ -3,7 +3,7 @@ title: Spring Rich Client Framework Announced
 date: 2006-04-07 16:47:25+00:00
 slug: spring-rich-client-framework-announced
 categories:
-  - Tools
+  - Development tools
 tags:
   - Java
   - Spring

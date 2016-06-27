@@ -3,7 +3,7 @@ title: JBoss - Stacking Login Modules
 date: 2007-05-27 20:43:53+00:00
 slug: jboss-stacking-login-modules
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - JBoss

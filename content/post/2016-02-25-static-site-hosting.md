@@ -3,7 +3,7 @@ title: "Moving to a Static Website, part 2: Hosting"
 date: 2016-02-25
 slug: static-site-hosting
 categories:
-  - Web
+  - Web Development
 tags:
   - Amazon
   - Certificate Manager

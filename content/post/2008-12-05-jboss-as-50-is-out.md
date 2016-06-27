@@ -3,7 +3,7 @@ title: JBoss AS 5.0 is out!
 date: 2008-12-05 16:18:50+00:00
 slug: jboss-as-50-is-out
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - JBoss

@@ -3,7 +3,7 @@ title: Deploying BIRT Report Engine API with Stripes Framework
 date: 2008-06-23 13:31:16+00:00
 slug: deploying-birt-report-engine-api-with-stripes
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - BIRT
   - Java

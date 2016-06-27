@@ -3,7 +3,7 @@ title: Stripes framework and jQuery Autocomplete
 date: 2008-12-16 15:01:33+00:00
 slug: stripes-and-jquery-autocomplete
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - AJAX
   - Java

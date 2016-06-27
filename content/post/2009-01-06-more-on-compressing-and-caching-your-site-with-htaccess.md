@@ -3,7 +3,7 @@ title: Speed up your site by compressing and caching your content with .htaccess
 date: 2009-01-06 14:00:46+00:00
 slug: more-on-compressing-and-caching-your-site-with-htaccess
 categories:
-  - Web
+  - Web Development
 tags:
   - Apache
   - Cache

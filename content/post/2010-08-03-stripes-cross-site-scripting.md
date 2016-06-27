@@ -3,7 +3,7 @@ title: Stripes Framework XSS Interceptor
 date: 2010-08-03 14:08:54+00:00
 slug: stripes-cross-site-scripting
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - Security

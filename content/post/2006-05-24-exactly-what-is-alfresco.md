@@ -3,7 +3,7 @@ title: Exactly what is Alfresco?
 date: 2006-05-24 17:47:31+00:00
 slug: exactly-what-is-alfresco
 categories:
-  - Tools
+  - Development tools
 tags:
   - Alfresco
   - CMS

@@ -3,7 +3,7 @@ title: "Moving to a Static Website, part 4: Benefits"
 date: 2016-03-04
 slug: static-site-benefits
 categories:
-  - Web
+  - Web Development
 tags:
   - Amazon
   - Hugo

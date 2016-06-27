@@ -3,7 +3,7 @@ title: Testing secured EJBs with Arquillian
 date: 2014-11-25 15:01:16+00:00
 slug: test-javaee-security-with-arquillian
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Arquillian
   - Java

@@ -3,7 +3,7 @@ title: "Moving to a Static Website, part 1: From WordPress to Hugo"
 date: 2016-02-18
 slug: static-site-from-wordpress-to-hugo
 categories:
-  - Web
+  - Web Development
 tags:
   - Go
   - Hugo

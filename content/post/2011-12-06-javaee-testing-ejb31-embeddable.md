@@ -3,7 +3,7 @@ title: Java EE 6 Testing Part I - EJB 3.1 Embeddable API
 date: 2011-12-06 14:32:27+00:00
 slug: javaee-testing-ejb31-embeddable
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - EJB
   - Java

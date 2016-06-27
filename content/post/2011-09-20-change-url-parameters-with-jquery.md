@@ -3,7 +3,7 @@ title: Changing URL parameters with jQuery
 date: 2011-09-20 14:32:39+00:00
 slug: change-url-parameters-with-jquery
 categories:
-  - Web
+  - Web Development
 tags:
   - JavaScript
   - jQuery

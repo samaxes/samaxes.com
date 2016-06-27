@@ -3,7 +3,7 @@ title: Comparing Java Web Frameworks
 date: 2006-03-25 03:54:52+00:00
 slug: comparing-java-web-frameworks
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - JSF

@@ -3,7 +3,7 @@ title: Don Brown on Unification of Struts Action and JSF
 date: 2006-05-23 16:59:24+00:00
 slug: don-brown-on-unification-of-struts-action-and-jsf
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - JSF

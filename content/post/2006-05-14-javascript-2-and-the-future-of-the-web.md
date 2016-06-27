@@ -3,7 +3,7 @@ title: JavaScript 2 and the Future of the Web
 date: 2006-05-14 14:33:40+00:00
 slug: javascript-2-and-the-future-of-the-web
 categories:
-  - Web
+  - Web Development
 tags:
   - JavaScript
 ---

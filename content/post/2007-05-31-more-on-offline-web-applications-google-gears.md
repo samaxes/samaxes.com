@@ -3,7 +3,7 @@ title: More on offline web applications - Google Gears
 date: 2007-05-31 15:41:38+00:00
 slug: more-on-offline-web-applications-google-gears
 categories:
-  - Web
+  - Web Development
 tags:
   - Dojo
   - Gears

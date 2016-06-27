@@ -3,7 +3,7 @@ title: Eclipse RCP to Cellphones
 date: 2006-10-17 23:24:23+00:00
 slug: eclipse-rcp-to-cellphones
 categories:
-  - Tools
+  - Development tools
 tags:
   - Eclipse
   - Java

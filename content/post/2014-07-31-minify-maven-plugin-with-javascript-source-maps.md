@@ -3,7 +3,7 @@ title: Minify Maven Plugin with support for JavaScript Source Maps
 date: 2014-07-31 22:49:43+00:00
 slug: minify-maven-plugin-with-javascript-source-maps
 categories:
-  - Tools
+  - Development tools
 tags:
   - Build
   - Closure Compiler

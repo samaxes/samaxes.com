@@ -3,7 +3,7 @@ title: Java EE 6 Testing Part II - Introduction to Arquillian and ShrinkWrap
 date: 2012-05-03 13:51:55+00:00
 slug: javaee-testing-introduction-arquillian-shrinkwrap
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Arquillian
   - Java

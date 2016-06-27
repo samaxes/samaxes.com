@@ -3,7 +3,7 @@ title: Database Connection Pooling with Tomcat
 date: 2006-04-20 09:37:41+00:00
 slug: database-connection-pooling-with-tomcat
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - Tomcat

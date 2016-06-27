@@ -3,7 +3,7 @@ title: Code conventions and programming style
 date: 2007-10-01 21:40:33+00:00
 slug: code-conventions-and-programming-style
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
 ---

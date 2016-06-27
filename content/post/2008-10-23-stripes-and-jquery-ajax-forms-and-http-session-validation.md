@@ -3,7 +3,7 @@ title: "Stripes framework and jQuery: AJAX forms and HTTP Session Validation"
 date: 2008-10-23 14:03:42+00:00
 slug: stripes-and-jquery-ajax-forms-and-http-session-validation
 categories:
-- Server-side
+- Server-side programming
 tags:
 - AJAX
 - Java

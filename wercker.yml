@@ -10,7 +10,7 @@ box: debian
   # - postgres
   # http://devcenter.wercker.com/docs/services/postgresql.html
 
-  # - mongodb
+  # - mongo
   # http://devcenter.wercker.com/docs/services/mongodb.html
 
 # This is the build pipeline. Pipelines are the core of wercker

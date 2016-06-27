@@ -3,7 +3,7 @@ title: Offline web applications with Dojo Offline Toolkit
 date: 2007-04-26 22:28:58+00:00
 slug: offline-web-applications-with-dojo-offline-toolkit
 categories:
-  - Web
+  - Web Development
 tags:
   - Dojo
   - Offline

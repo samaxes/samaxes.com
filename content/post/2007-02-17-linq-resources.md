@@ -3,7 +3,7 @@ title: LINQ Resources
 date: 2007-02-17 14:32:58+00:00
 slug: linq-resources
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - .NET
   - DSL

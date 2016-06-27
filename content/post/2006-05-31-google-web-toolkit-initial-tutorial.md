@@ -3,7 +3,7 @@ title: Google Web Toolkit initial tutorial
 date: 2006-05-31 22:56:07+00:00
 slug: google-web-toolkit-initial-tutorial
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - AJAX
   - GWT

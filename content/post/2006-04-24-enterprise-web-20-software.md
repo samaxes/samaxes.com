@@ -3,7 +3,7 @@ title: Enterprise Web 2.0 software
 date: 2006-04-24 16:39:30+00:00
 slug: enterprise-web-20-software
 categories:
-  - Web
+  - Web Development
 tags:
   - Web 2.0
 ---

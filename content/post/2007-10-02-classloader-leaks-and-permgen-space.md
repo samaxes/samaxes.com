@@ -3,7 +3,7 @@ title: Classloader leaks and PermGen space
 date: 2007-10-02 15:27:02+00:00
 slug: classloader-leaks-and-permgen-space
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - JVM

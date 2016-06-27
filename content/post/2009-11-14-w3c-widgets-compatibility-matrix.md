@@ -3,7 +3,7 @@ title: W3C Widgets Compatibility Matrix for Packaging and Configuration
 date: 2009-11-14 00:17:40+00:00
 slug: w3c-widgets-compatibility-matrix
 categories:
-  - Web
+  - Web Development
 tags:
   - W3C
   - Widgets

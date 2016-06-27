@@ -3,7 +3,7 @@ title: JBoss PojoCache configuration
 date: 2009-03-17 15:17:01+00:00
 slug: jboss-pojocache-configuration
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Cache
   - Java

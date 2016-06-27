@@ -3,7 +3,7 @@ title: Gantt Charts with JFreeChart
 date: 2006-11-04 04:30:29+00:00
 slug: gantt-charts-with-jfreechart
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Gantt
   - Java

@@ -3,7 +3,7 @@ title: "Google Web Toolkit: AJAX applications in Java"
 date: 2006-05-17 11:40:49+00:00
 slug: google-web-toolkit-ajax-applications-in-java
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - AJAX
   - GWT

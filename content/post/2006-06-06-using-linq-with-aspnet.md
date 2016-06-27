@@ -3,7 +3,7 @@ title: Using LINQ with ASP.NET
 date: 2006-06-06 22:12:37+00:00
 slug: using-linq-with-aspnet
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - .NET
   - LINQ

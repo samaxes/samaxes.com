@@ -3,7 +3,7 @@ title: A Modular Approach to Data Validation in Web Applications
 date: 2006-03-28 21:57:49+00:00
 slug: a-modular-approach-to-data-validation-in-web-applications
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - Security

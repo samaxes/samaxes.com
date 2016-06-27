@@ -3,7 +3,7 @@ title: Minify Maven Plugin adds support for Google Closure Compiler
 date: 2013-02-18 19:14:57+00:00
 slug: minify-maven-plugin-supports-closure-compiler
 categories:
-  - Tools
+  - Development tools
 tags:
   - Build
   - Closure Compiler

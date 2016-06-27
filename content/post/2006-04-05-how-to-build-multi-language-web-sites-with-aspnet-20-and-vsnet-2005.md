@@ -3,7 +3,7 @@ title: How to build Multi-Language Web Sites with ASP.NET 2.0 and VS.Net 2005
 date: 2006-04-05 00:09:50+00:00
 slug: how-to-build-multi-language-web-sites-with-aspnet-20-and-vsnet-2005
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - .NET
   - Internationalization

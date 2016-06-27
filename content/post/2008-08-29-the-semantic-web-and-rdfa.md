@@ -3,7 +3,7 @@ title: The Semantic Web and RDFa
 date: 2008-08-29 15:10:18+00:00
 slug: the-semantic-web-and-rdfa
 categories:
-  - Web
+  - Web Development
 tags:
   - HTML5
   - RDFa

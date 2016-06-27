@@ -3,7 +3,7 @@ title: XLS(MS Excel) Emitter for BIRT
 date: 2006-04-19 14:00:43+00:00
 slug: xlsms-excel-emitter-for-birt
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - BIRT
   - Eclipse

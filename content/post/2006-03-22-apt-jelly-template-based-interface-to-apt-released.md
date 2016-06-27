@@ -3,7 +3,7 @@ title: APT-Jelly (template-based interface to APT) released
 date: 2006-03-22 19:51:30+00:00
 slug: apt-jelly-template-based-interface-to-apt-released
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
 ---

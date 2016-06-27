@@ -3,7 +3,7 @@ title: Ajaxian.com 2006 Survey Results
 date: 2006-09-23 22:57:25+00:00
 slug: ajaxiancom-2006-survey-results
 categories:
-  - Web
+  - Web Development
 tags:
   - AJAX
 ---

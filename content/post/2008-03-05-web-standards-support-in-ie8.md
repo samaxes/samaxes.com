@@ -3,7 +3,7 @@ title: Web Standards Support in IE8
 date: 2008-03-05 13:03:21+00:00
 slug: web-standards-support-in-ie8
 categories:
-  - Web
+  - Web Development
 tags:
   - IE
 ---

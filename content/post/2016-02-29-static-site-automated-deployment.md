@@ -3,7 +3,7 @@ title: "Moving to a Static Website, part 3: Automated deployment with Wercker"
 date: 2016-02-29
 slug: static-site-automated-deployment
 categories:
-  - Web
+  - Web Development
 tags:
   - Amazon
   - GitHub

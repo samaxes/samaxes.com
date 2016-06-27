@@ -3,7 +3,7 @@ title: Internationalization of the File Upload Form Field
 date: 2009-01-27 11:36:51+00:00
 slug: internationalization-of-the-file-upload-form-field
 categories:
-  - Web
+  - Web Development
 tags:
   - HTML5
   - Internationalization

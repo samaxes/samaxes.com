@@ -3,7 +3,7 @@ title: Deploying BIRT Report Engine API with Apache Struts
 date: 2006-08-15 22:59:55+00:00
 slug: deploying-birt-report-engine-api-with-apache-struts
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - BIRT
   - Java

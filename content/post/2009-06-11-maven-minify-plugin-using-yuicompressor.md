@@ -3,7 +3,7 @@ title: Maven Minify Plugin using YUI Compressor
 date: 2009-06-11 23:08:04+00:00
 slug: maven-minify-plugin-using-yuicompressor
 categories:
-  - Tools
+  - Development tools
 tags:
   - Build
   - Java

@@ -3,7 +3,7 @@ title: Creating Offline Web Applications with Dojo Offline Tutorial
 date: 2007-07-08 18:00:57+00:00
 slug: creating-offline-web-applications-with-dojo-offline-tutorial
 categories:
-  - Web
+  - Web Development
 tags:
   - Dojo
   - Gears

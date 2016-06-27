@@ -3,7 +3,7 @@ title: Alfresco and Web Content Management - Part I
 date: 2006-10-16 01:32:01+00:00
 slug: alfresco-web-content-management-part1
 categories:
-  - Tools
+  - Development tools
 tags:
   - Alfresco
   - CMS

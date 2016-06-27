@@ -3,7 +3,7 @@ title: Running Drools 5.4.0 Final as a JBoss AS 7 module
 date: 2012-11-06 14:50:22+00:00
 slug: running-drools-5-4-0-final-as-a-jboss-as-7-module
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Drools
   - Java

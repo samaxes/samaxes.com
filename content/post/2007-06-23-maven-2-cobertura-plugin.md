@@ -3,7 +3,7 @@ title: Maven 2 Cobertura Plugin
 date: 2007-06-23 23:23:00+00:00
 slug: maven-2-cobertura-plugin
 categories:
-  - Tools
+  - Development tools
 tags:
   - Build
   - Java

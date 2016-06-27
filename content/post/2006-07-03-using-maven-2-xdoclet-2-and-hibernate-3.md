@@ -3,7 +3,7 @@ title: Using Maven 2, XDoclet 2, and Hibernate 3
 date: 2006-07-03 00:53:29+00:00
 slug: using-maven-2-xdoclet-2-and-hibernate-3
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Build
   - Hibernate

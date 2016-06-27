@@ -3,7 +3,7 @@ title: First Atlas Toolkit official release
 date: 2006-04-13 16:34:09+00:00
 slug: first-atlas-toolkit-official-release
 categories:
-  - Web
+  - Web Development
 tags:
   - .NET
   - AJAX

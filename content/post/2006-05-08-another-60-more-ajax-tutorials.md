@@ -3,7 +3,7 @@ title: Another 60 More AJAX Tutorials
 date: 2006-05-08 18:38:59+00:00
 slug: another-60-more-ajax-tutorials
 categories:
-  - Web
+  - Web Development
 tags:
   - AJAX
 ---

@@ -3,7 +3,7 @@ title: Cross Browser Testing
 date: 2009-04-07 14:16:38+00:00
 slug: cross-browser-testing
 categories:
-  - Web
+  - Web Development
 tags:
   - Testing
 ---

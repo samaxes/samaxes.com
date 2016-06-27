@@ -3,7 +3,7 @@ title: .htaccess - gzip and cache your site for faster loading and bandwidth sav
 date: 2008-04-20 17:32:38+00:00
 slug: htaccess-gzip-and-cache-your-site-for-faster-loading-and-bandwidth-saving
 categories:
-  - Web
+  - Web Development
 tags:
   - Apache
   - Cache

@@ -3,7 +3,7 @@ title: Great CSS Layouts
 date: 2006-04-23 00:06:25+00:00
 slug: great-css-layouts
 categories:
-  - Web
+  - Web Development
 tags:
   - CSS
 ---

@@ -3,7 +3,7 @@ title: Tribix - Extended Emitters for BIRT
 date: 2006-07-12 23:57:57+00:00
 slug: tribix-extended-emitters-for-birt
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - BIRT
   - Eclipse

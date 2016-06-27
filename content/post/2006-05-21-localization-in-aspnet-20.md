@@ -3,7 +3,7 @@ title: Localization in ASP.NET 2.0
 date: 2006-05-21 01:40:35+00:00
 slug: localization-in-aspnet-20
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - .NET
   - Internationalization

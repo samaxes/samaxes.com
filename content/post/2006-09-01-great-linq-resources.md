@@ -3,7 +3,7 @@ title: Great LINQ Resources
 date: 2006-09-01 01:09:26+00:00
 slug: great-linq-resources
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - .NET
   - LINQ

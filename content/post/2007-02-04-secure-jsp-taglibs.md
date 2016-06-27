@@ -3,7 +3,7 @@ title: Secure JSP Taglibs
 date: 2007-02-04 16:12:14+00:00
 slug: secure-jsp-taglibs
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - Java
   - JSP

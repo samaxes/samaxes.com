@@ -3,7 +3,7 @@ title: JSCalendar white theme
 date: 2008-01-03 01:08:00+00:00
 slug: jscalendar-white-theme
 categories:
-  - Web
+  - Web Development
 tags:
   - JSCalendar
   - Theme

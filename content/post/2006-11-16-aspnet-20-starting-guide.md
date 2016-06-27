@@ -3,7 +3,7 @@ title: ASP.NET 2.0 Starting Guide
 date: 2006-11-16 01:13:04+00:00
 slug: aspnet-20-starting-guide
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - .NET
 ---

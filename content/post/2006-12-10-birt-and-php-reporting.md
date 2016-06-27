@@ -3,7 +3,7 @@ title: BIRT and PHP Reporting
 date: 2006-12-10 19:24:23+00:00
 slug: birt-and-php-reporting
 categories:
-  - Server-side
+  - Server-side programming
 tags:
   - BIRT
   - PHP

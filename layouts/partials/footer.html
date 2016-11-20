@@ -1,6 +1,6 @@
     <footer class="main-footer">
       <div class="container clearfix">
-        <a href="{{ "/index.xml" | absURL }}" target="_blank" title="RSS" type="application/rss+xml"><i class="fa fa-rss fa-lg"></i></a>
+        <a href="{{ "/index.xml" | absURL }}" target="_blank" title="RSS" rel="alternate" type="application/rss+xml"><i class="fa fa-rss fa-lg"></i></a>
         <p>
           &copy; {{ .Now.Format "2006" }} {{ .Site.Params.author }}<br/>
           {{ .Site.Params.license | markdownify }}<br/>

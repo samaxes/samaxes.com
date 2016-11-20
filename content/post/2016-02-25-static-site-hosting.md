@@ -18,6 +18,7 @@ This is the second part of a four-part blog post covering my move from WordPress
 If you haven't read the first part, you may find it at [Moving to a Static Website, part 1: From WordPress to Hugo]({{< ref "post/2016-02-18-static-site-from-wordpress-to-hugo.md" >}}).
 
 <!--more-->
+
 ---
 
 Initially I thought I would take advantage of [GitHub Pages](https://pages.github.com/) to host my site, as I know many others do.

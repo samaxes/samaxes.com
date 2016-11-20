@@ -17,6 +17,7 @@ This is a four-part blog post, the first covering why I moved to [Hugo](https://
 These posts are not intended as walkthrough on how to do it yourself, but simply sharing my experience hoping to impart some useful knowledge along the way.
 
 <!--more-->
+
 ---
 
 [WordPress](https://wordpress.org/) is pretty easy to use, and there are plenty of plugins allowing you to do pretty much anything. However, the numerous WordPress upgrades and countless security flaws were making me feel it was time to abandon WordPress for a static site.

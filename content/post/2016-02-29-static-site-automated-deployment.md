@@ -17,6 +17,7 @@ This is the third part of a four-part blog post covering my move from WordPress 
 If you haven't read the first two parts, you may find them at [Moving to a Static Website, part 1: From WordPress to Hugo]({{< ref "post/2016-02-18-static-site-from-wordpress-to-hugo.md" >}}) and [Moving to a Static Website, part 2: Hosting]({{< ref "post/2016-02-25-static-site-hosting.md" >}}).
 
 <!--more-->
+
 ---
 
 ## Prerequisites

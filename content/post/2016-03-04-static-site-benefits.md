@@ -17,6 +17,7 @@ This is the last part of a four-part blog post covering my move from WordPress t
 If you haven't read the first three parts, you may find them at [Moving to a Static Website, part 1: From WordPress to Hugo]({{< ref "post/2016-02-18-static-site-from-wordpress-to-hugo.md" >}}), [Moving to a Static Website, part 2: Hosting]({{< ref "post/2016-02-25-static-site-hosting.md" >}}) and [Moving to a Static Website, part 3: Automated deployment with Wercker]({{< ref "post/2016-02-29-static-site-automated-deployment.md" >}}).
 
 <!--more-->
+
 ---
 
 ## Site speed

@@ -23,7 +23,7 @@ build:
   steps:
     # Build Hugo site
     - arjen/hugo-build:
-        version: "0.15"
+        version: "0.17"
         theme: hugo-minimalist-theme
         config: config.yaml
         disable_pygments: true

@@ -6,7 +6,7 @@
     {{ end }}
     {{ .Site.Data.l10n.article.posted_on }}
     <span class="post-meta">
-        <time datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "2006.01.02" }}</time>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
         {{ if .Params.tags }}
             &middot; {{ .Site.Data.l10n.article.tagged_in }}
             {{ range $i, $v := .Params.tags }}

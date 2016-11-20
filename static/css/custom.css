@@ -67,6 +67,11 @@ figure.side-by-side {
   padding: 10px;
 }
 
+.h1 {
+  font-size: 2em;
+  margin: 0.67em 0 !important;
+}
+
 
 /* Carbon Ads
 ------------------------------------------------------------------ */

@@ -5,7 +5,7 @@
         <article class="post">
             <a class="btn home" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo; {{ .Site.Data.l10n.article.back_to_home }}</a>
             {{ partial "article-header" . }}
-            {{ .Content}}
+            {{ .Content }}
             {{ partial "article-share" . }}
         </article>
         <div class="comments">

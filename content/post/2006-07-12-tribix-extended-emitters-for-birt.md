@@ -19,4 +19,6 @@ This version does support fixed-column-width sheet output and image export to Ex
 
 Here's a screenshoot:
 
+<div>
 {{< figure src="http://samaxes.appspot.com/images/tribix-xls-preview.jpg" link="https://sourceforge.net/projects/tribix/" caption="Tribix Excel preview" >}}
+</div>

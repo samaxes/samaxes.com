@@ -13,6 +13,8 @@ For those who are tired of the JSCalendar available skins, check my [JSCalendar 
 
 Preview:
 
+<div>
 {{< figure src="http://samaxes-demos.appspot.com/jscalendar/images/jscalendar-white-theme-preview.png" link="http://code.google.com/p/jscalendar-themes/" alt="JSCalendar white theme" >}}
+</div>
 
 Demo: [JSCalendar white theme](http://samaxes-demos.appspot.com/jscalendar/index.html)

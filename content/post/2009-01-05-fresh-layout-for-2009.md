@@ -33,7 +33,9 @@ All the images used on this blog have been moved to [Google App Engine](http://a
 
 Please take a look at the following print screens and share your opinions about the changes made.
 
+<div>
 {{< figure src="http://samaxes.appspot.com/images/autocomplete-v1.png" link="http://samaxes.appspot.com/images/autocomplete-v1.png" class="side-by-side" caption="Previous theme" >}}
 {{< figure src="http://samaxes.appspot.com/images/autocomplete-v2.png" link="http://samaxes.appspot.com/images/autocomplete-v2.png" class="side-by-side" caption="Actual theme" >}}
+</div>
 
 I think these are the most relevant changes for this blog's readers and I hope they are for the better.

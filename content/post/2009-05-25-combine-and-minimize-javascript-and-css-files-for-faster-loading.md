@@ -341,8 +341,10 @@ Easy!
 
 The following images are screenshots taken from the [YSlow](http://developer.yahoo.com/yslow/) Statistics' report comparing the debug and minimized versions.
 
+<div>
 {{< figure src="http://samaxes.appspot.com/images/build-debug-statistics.png" class="side-by-side" caption="Debug version (combined but not minimized)" >}}
 {{< figure src="http://samaxes.appspot.com/images/build-minimized-statistics.png" class="side-by-side" caption="Minimized version (combined and minimized)" >}}
+</div>
 
 In this example you have file size reduction gains of nearly **48%** for JavaScript files and **59%** for CSS files.
 

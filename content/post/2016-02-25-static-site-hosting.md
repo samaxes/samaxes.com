@@ -89,7 +89,9 @@ Now we need to configure the `example.com` bucket for website hosting:
 
 2. Enter `index.html` for the **Index Document** field, then click **Save**.
 
+<div>
 {{< figure src="/img/aws/s3-website-hosting.png" alt="Enable static website hosting on Amazon S3" attr="Setting Up a Static Website Using a Custom Domain" attrlink="https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html" caption="Image from" >}}
+</div>
 
 **Note:** Copy the URL for the website endpoint. We will need it when creating the CloudFront distribution.
 
@@ -101,7 +103,9 @@ Finally, we need to configure the `www.example.com` bucket to redirect all reque
 
 2. Enter your root domain address for the  **Redirect all requests to** field, then click **Save**.
 
+<div>
 {{< figure src="/img/aws/s3-website-redirect.png" alt="Redirect requests on Amazon S3" attr="Setting Up a Static Website Using a Custom Domain" attrlink="https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html" caption="Image from" >}}
+</div>
 
 We now should have a fast static website for people near our Amazon S3 region, but for others, it will be a lot slower.
 
@@ -139,7 +143,9 @@ Open CloudFront console at https://console.aws.amazon.com/cloudfront and execute
 
 My distribution for the root domain looks like this (_Click to enlarge_):
 
+<div>
 {{< figure src="/img/aws/cloudfront-distribution.png" link="/img/aws/cloudfront-distribution.png" caption="CloudFront distribution example" >}}
+</div>
 
 To test your website, copy your CloudFront domain name (something like `d111111abcdef8.cloudfront.net`) and open it on your browser.
 
@@ -165,6 +171,8 @@ Open Route 53 console at https://console.aws.amazon.com/route53 and execute the 
 
 My hosted zone looks like this (_Click to enlarge_):
 
+<div>
 {{< figure src="/img/aws/route53-hosted-zone.png" link="/img/aws/route53-hosted-zone.png" caption="Route 53 hosted zone example" >}}
+</div>
 
 Now relax and wait for the propagation of your DNS changes. Name server changes usually take 24 to 48 hours to fully start working.

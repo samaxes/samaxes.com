@@ -45,7 +45,9 @@ After you are registered at Wercker, you will need to link your GitHub account t
 
 You do this by going to your **profile settings**, and then **Git connections**.
 
+<div>
 {{< figure src="/img/wercker/connect-github.png" link="/img/wercker/connect-github.png" caption="Wercker GitHub connect" >}}
+</div>
 
 ## Create an application
 
@@ -59,7 +61,9 @@ Click on the **+ Create** button in the top menu, and:
 
 3. Configure Wercker access to the repository.
 
+<div>
 {{< figure src="/img/wercker/create-application.png" link="/img/wercker/create-application.png" caption="Wercker new application example" >}}
+</div>
 
 ## Add Amazon S3 deploy target
 
@@ -69,7 +73,9 @@ Here you can fill in the name for your deploy target and, if you prefer, select 
 
 Next you want to add the following environment variables that the build pipeline must leverage to sync your app with Amazon S3:
 
+<div>
 {{< figure src="/img/wercker/add-deploy-target.png" link="/img/wercker/add-deploy-target.png" caption="Wercker deploy target example" >}}
+</div>
 
 Here you enter the details of your Amazon S3 bucket. The key and secret key can be found in the [AWS security credentials](https://portal.aws.amazon.com/gp/aws/securityCredentials) page. The URL for the key `bucket-url` should be in the format `s3://example.com`.
 
@@ -139,10 +145,14 @@ $ git push origin master
 
 This automatically triggers a new build on Wercker as you can see below:
 
+<div>
 {{< figure src="/img/wercker/build.png" link="/img/wercker/build.png" caption="Wercker build example" >}}
+</div>
 
 If everything went well it should automatically start a new deploy to the S3 bucket that you have defined previously as the deploy target (if you did activate the auto deploy option):
 
+<div>
 {{< figure src="/img/wercker/deploy.png" link="/img/wercker/deploy.png" caption="Wercker deploy example" >}}
+</div>
 
 Congratulations your blog built with Hugo and deployed via Wercker is now live on Amazon S3!

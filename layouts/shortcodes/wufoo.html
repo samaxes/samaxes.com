@@ -1,7 +1,7 @@
 <div id="wufoo-{{ index .Params 0 }}">
 Fill out my <a href="https://samaxes.wufoo.com/forms/{{ index .Params 0 }}">online form</a>.
 </div>
-<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="https://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
 <script type="text/javascript">var wufooForm;(function(d, t) {
 var s = d.createElement(t), options = {
 'userName':'samaxes',
@@ -12,7 +12,7 @@ var s = d.createElement(t), options = {
 'host':'wufoo.com',
 'header':'show',
 'ssl':true};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.src = 'https://www.wufoo.com/scripts/embed/form.js';
 s.onload = s.onreadystatechange = function() {
 var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
 try { wufooForm = new WufooForm();wufooForm.initialize(options);wufooForm.display(); } catch (e) {}};

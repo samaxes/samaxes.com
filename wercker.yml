@@ -31,10 +31,11 @@ build:
 deploy:
   steps:
     # Deploy site to Amazon S3
-    - wercker/s3sync:
+    - socialschools/s3sync:
         key-id: $AWS_ACCESS_KEY_ID
         key-secret: $AWS_SECRET_ACCESS_KEY
         bucket-url: $AWS_BUCKET_URL
         source_dir: public/
         delete-removed: true
         opts: --acl-public --add-header=Cache-Control:max-age=2592000
+        additional-command: put --acl-public --force --add-header=Cache-Control:no-cache --verbose index.html $AWS_BUCKET_URL

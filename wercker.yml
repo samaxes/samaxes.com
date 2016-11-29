@@ -37,5 +37,5 @@ deploy:
         bucket-url: $AWS_BUCKET_URL
         source_dir: public/
         delete-removed: true
-        opts: --acl-public --add-header=Cache-Control:max-age=2592000
-        additional-command: put --acl-public --force --add-header=Cache-Control:no-cache --verbose index.html $AWS_BUCKET_URL
+        opts: --acl-public --add-header=Cache-Control:public,max-age=2592000
+        additional-command: put --acl-public --force --add-header=Cache-Control:private,max-age=3600 --verbose index.html index.xml $AWS_BUCKET_URL

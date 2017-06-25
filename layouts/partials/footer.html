@@ -2,7 +2,7 @@
       <div class="container clearfix">
         <a href="{{ "/index.xml" | absURL }}" target="_blank" title="RSS" rel="alternate" type="application/rss+xml"><i class="fa fa-rss fa-lg"></i></a>
         <p>
-          &copy; {{ .Now.Format "2006" }} {{ .Site.Params.author }}<br/>
+          &copy; {{ now.Year }} {{ .Site.Params.author }}<br/>
           {{ .Site.Params.license | markdownify }}<br/>
           {{ .Site.Params.powerby | markdownify }}
         </p>

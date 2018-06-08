@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>JNation Aeminium TV</title>
+  <meta name="description" content="JNation Aeminium TV content">
+  <meta name="author" content="JNation">
+  <meta name="robots" content="none">
+
+  <style>
+    html,
+    body,
+    main {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    main {
+      background-position: center;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1></h1>
+  </main>
+
+  <script>
+    ((global, document) => {
+      'use strict';
+
+      const timeout = 2*60*1000; // 2 minutes
+      const updateImage = function() {
+        const currentTime = new Date();
+        const currentTimeString = ('0' + currentTime.getHours()).slice(-2) + ':' + currentTime.getMinutes();
+
+        if (currentTimeString < '09:50') {
+          document.querySelector('h1').innerHTML = 'Welcome to JNation';
+          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/03/coimbra_bg.jpg")';
+        } else if (currentTimeString < '10:40') {
+          document.querySelector('h1').innerHTML = 'Decrypting Tech Hype for the Busy Coder';
+          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+        } else if (currentTimeString < '11:50') {
+          document.querySelector('h1').innerHTML = 'A Look Back at Enterprise Integration Patterns and Their Use into Today\'s Serverless Computing';
+          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+        } else if (currentTimeString < '12:50') {
+          document.querySelector('h1').innerHTML = 'Top 10 Vulnerabilities you wish your Java app didn\'t have!';
+          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+        } else if (currentTimeString < '14:30') {
+          document.querySelector('h1').innerHTML = 'Deconstructing and Evolving REST Security';
+          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+        } else if (currentTimeString < '15:30') {
+          document.querySelector('h1').innerHTML = 'Serverless or Serverfull: Microservices & Functions on Kubernetes';
+          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+        } else if (currentTimeString < '16:40') {
+          document.querySelector('h1').innerHTML = 'Integration Testing from the Trenches';
+          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+        } else if (currentTimeString < '21:40') {
+          document.querySelector('h1').innerHTML = 'Well Architected Java Backends';
+          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+        } else {
+          document.querySelector('h1').innerHTML = 'Goodbye';
+          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+        }
+      }
+
+      updateImage();
+
+      global.setInterval(() => {
+        updateImage();
+      }, timeout);
+    })(window, document);
+  </script>
+</body>
+</html>

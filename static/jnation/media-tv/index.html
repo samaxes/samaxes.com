@@ -6,6 +6,7 @@
   <title>JNation Media TV</title>
   <meta name="description" content="JNation Media TV content">
   <meta name="author" content="JNation">
+  <meta name="robots" content="none">
 
   <style>
     html,
@@ -27,7 +28,7 @@
   </iframe>
 
   <script>
-    (global => {
+    ((global, document) => {
       'use strict';
 
       const timeout = 10000;
@@ -43,7 +44,7 @@
         console.log(`Changing iFrame source to ${sources[sourceIndex % sources.length]}`);
         document.querySelector('iframe').src = sources[sourceIndex % sources.length];
       }, timeout);
-    })(window);
+    })(window, document);
   </script>
 </body>
 </html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>JNation Media TV</title>
+  <meta name="description" content="JNation Media TV content">
+  <meta name="author" content="JNation">
+
+  <style>
+    html,
+    body,
+    iframe {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    iframe {
+      border: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <iframe src="https://jnation.pt" allowfullscreen>
+  </iframe>
+
+  <script>
+    (global => {
+      'use strict';
+
+      const timeout = 10000;
+      const sources = [
+        "https://jnation.pt",
+        "https://samaxes.com",
+        "https://present-technologies.com/index.html"
+      ];
+      let sourceIndex = 0;
+
+      global.setInterval(() => {
+        sourceIndex++;
+        console.log(`Changing iFrame source to ${sources[sourceIndex % sources.length]}`);
+        document.querySelector('iframe').src = sources[sourceIndex % sources.length];
+      }, timeout);
+    })(window);
+  </script>
+</body>
+</html>

@@ -8,7 +8,12 @@
   <meta name="author" content="JNation">
   <meta name="robots" content="none">
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     html,
     body,
     iframe {
@@ -20,30 +25,64 @@
       border: 0;
       width: 100%;
     }
+    footer {
+      background-color: #e74c3c;
+      border-radius: 20px 0 0 0;
+      bottom: 0;
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 24px;
+      padding: 20px 50px;
+      position: fixed;
+      right: 0;
+      text-align: right;
+      text-rendering:  optimizeLegibility;
+    }
   </style>
 </head>
 
 <body>
-  <iframe src="https://jnation.pt" allowfullscreen>
+  <iframe src="https://taggbox.com/socialwalls/w/jnation?screen_cloud=1" allowfullscreen>
   </iframe>
+  <footer>
+    <i class="fas fa-wifi"></i> JNATION
+  </footer>
 
   <script>
     ((global, document) => {
       'use strict';
 
       const timeout = 10000;
-      const sources = [
-        "https://jnation.pt",
-        "https://samaxes.com",
-        "https://present-technologies.com/index.html"
-      ];
+      const framesData = [{
+        source: 'https://taggbox.com/socialwalls/w/jnation?screen_cloud=1',
+        timeout: 3*60*1000 // 3 minutes
+      }, {
+        source: 'https://jnation.pt/schedule-condensed/',
+        timeout: 30*1000 // 30 seconds
+      }, {
+        source: 'https://jnation.pt/oreilly-ebook/',
+        timeout: 30*1000 // 30 seconds
+      }, {
+        source: 'https://jnation.pt/sponsors-condensed/',
+        timeout: 30*1000 // 30 seconds
+      }];
       let sourceIndex = 0;
 
-      global.setInterval(() => {
-        sourceIndex++;
-        console.log(`Changing iFrame source to ${sources[sourceIndex % sources.length]}`);
-        document.querySelector('iframe').src = sources[sourceIndex % sources.length];
-      }, timeout);
+      refreshFrame();
+
+      function refreshFrame() {
+        console.log(`Setting iFrame source to ${framesData[sourceIndex].source}`);
+        document.querySelector('iframe').src = framesData[sourceIndex].source;
+
+        global.setTimeout(() => {
+          sourceIndex++;
+          if (sourceIndex >= framesData.length) {
+            sourceIndex = 0;
+          }
+
+          refreshFrame();
+        }, framesData[sourceIndex].timeout);
+      }
     })(window, document);
   </script>
 </body>

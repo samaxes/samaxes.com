@@ -8,7 +8,12 @@
   <meta name="author" content="JNation">
   <meta name="robots" content="none">
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     html,
     body,
     main {
@@ -20,6 +25,22 @@
       background-position: center;
       background-size: cover;
     }
+    h1 {
+      display: none;
+    }
+    footer {
+      background-color: #e74c3c;
+      border-radius: 20px 0 0 0;
+      bottom: 0;
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 24px;
+      padding: 20px 50px;
+      position: fixed;
+      right: 0;
+      text-align: right;
+      text-rendering:  optimizeLegibility;
+    }
   </style>
 </head>
 
@@ -27,43 +48,49 @@
   <main>
     <h1></h1>
   </main>
+  <footer>
+    <i class="fas fa-wifi"></i> JNATION
+  </footer>
 
   <script>
     ((global, document) => {
       'use strict';
 
-      const timeout = 2*60*1000; // 2 minutes
+      const timeout = 3*60*1000; // 3 minutes
       const updateImage = function() {
         const currentTime = new Date();
-        const currentTimeString = ('0' + currentTime.getHours()).slice(-2) + ':' + currentTime.getMinutes();
+        const currentTimeString = ('0' + currentTime.getHours()).slice(-2) + ':' + ('0' + currentTime.getMinutes()).slice(-2);
 
         if (currentTimeString < '09:50') {
           document.querySelector('h1').innerHTML = 'Welcome to JNation';
-          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/03/coimbra_bg.jpg")';
+          document.querySelector('main').style.backgroundImage = 'url("../img/oc_01_Roberto_Cortez.jpg")';
         } else if (currentTimeString < '10:40') {
           document.querySelector('h1').innerHTML = 'Decrypting Tech Hype for the Busy Coder';
-          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+          document.querySelector('main').style.backgroundImage = 'url("../img/oc_02_Stephen_Chin.jpg")';
         } else if (currentTimeString < '11:50') {
           document.querySelector('h1').innerHTML = 'Spring Framework 5: Feature Highlights & Hidden Gems';
-          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+          document.querySelector('main').style.backgroundImage = 'url("../img/rm_01_Juergen_Hoeller.jpg")';
         } else if (currentTimeString < '12:50') {
           document.querySelector('h1').innerHTML = 'Docker Tips and Tricks for Java Developers';
-          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+          document.querySelector('main').style.backgroundImage = 'url("../img/rm_02_Ray_Tsang.jpg")';
         } else if (currentTimeString < '14:30') {
           document.querySelector('h1').innerHTML = 'Web Components - ready for prime time?';
-          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+          document.querySelector('main').style.backgroundImage = 'url("../img/rm_03_Matti_Tahvonen.jpg")';
         } else if (currentTimeString < '15:30') {
           document.querySelector('h1').innerHTML = 'From the Caves to Agile';
-          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+          document.querySelector('main').style.backgroundImage = 'url("../img/rm_04_Kasia_Mrowca.jpg")';
         } else if (currentTimeString < '16:40') {
           document.querySelector('h1').innerHTML = 'Microprofile: Just enough EE for your Microservices';
-          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
-        } else if (currentTimeString < '21:40') {
-          document.querySelector('h1').innerHTML = 'Fn Project – an open source container native serverless platform';
-          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+          document.querySelector('main').style.backgroundImage = 'url("../img/rm_05_Edson_Yanaga.jpg")';
+        } else if (currentTimeString < '17:40') {
+          document.querySelector('h1').innerHTML = 'Common Vulnerabilities you wish your Java app didn\'t have!';
+          document.querySelector('main').style.backgroundImage = 'url("../img/rm_06_Simon_Maple.jpg")';
+        } else if (currentTimeString < '18:05') {
+          document.querySelector('h1').innerHTML = 'The future of cloud native Java is open!';
+          document.querySelector('main').style.backgroundImage = 'url("../img/oc_03_Gael_Blondelle.jpg")';
         } else {
           document.querySelector('h1').innerHTML = 'Goodbye';
-          document.querySelector('main').style.backgroundImage = 'url("https://jnation.pt/wp-content/uploads/2018/02/convento_header.jpg")';
+          document.querySelector('main').style.backgroundImage = 'url("../img/oc_04_Roberto_Cortez.jpg")';
         }
       }
 

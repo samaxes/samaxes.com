@@ -56,10 +56,10 @@
     (function(global, document) {
       'use strict';
 
-      const timeout = 3*60*1000; // 3 minutes
-      const updateImage = function() {
-        const currentTime = new Date();
-        const currentTimeString = ('0' + currentTime.getHours()).slice(-2) + ':' + ('0' + currentTime.getMinutes()).slice(-2);
+      var timeout = 3*60*1000; // 3 minutes
+      var updateImage = function() {
+        var currentTime = new Date();
+        var currentTimeString = ('0' + currentTime.getHours()).slice(-2) + ':' + ('0' + currentTime.getMinutes()).slice(-2);
 
         if (currentTimeString < '09:50') {
           document.querySelector('h1').innerHTML = 'Welcome to JNation';
@@ -92,7 +92,7 @@
           document.querySelector('h1').innerHTML = 'Goodbye';
           document.querySelector('main').style.backgroundImage = 'url("../img/oc_04_Roberto_Cortez.jpg")';
         }
-      }
+      };
 
       updateImage();
 

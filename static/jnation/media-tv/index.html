@@ -52,8 +52,7 @@
     (function(global, document) {
       'use strict';
 
-      const timeout = 10000;
-      const framesData = [{
+      var framesData = [{
         source: 'https://taggbox.com/socialwalls/w/jnation?screen_cloud=1',
         timeout: 3*60*1000 // 3 minutes
       }, {
@@ -66,12 +65,12 @@
         source: 'https://jnation.pt/sponsors-condensed/',
         timeout: 30*1000 // 30 seconds
       }];
-      let sourceIndex = 0;
+      var sourceIndex = 0;
 
       refreshFrame();
 
       function refreshFrame() {
-        console.log(`Setting iFrame source to ${framesData[sourceIndex].source}`);
+        console.log('Setting iFrame source to ' + framesData[sourceIndex].source);
         document.querySelector('iframe').src = framesData[sourceIndex].source;
 
         global.setTimeout(function() {

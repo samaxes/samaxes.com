@@ -49,7 +49,7 @@
   </footer>
 
   <script>
-    ((global, document) => {
+    (function(global, document) {
       'use strict';
 
       const timeout = 10000;
@@ -74,7 +74,7 @@
         console.log(`Setting iFrame source to ${framesData[sourceIndex].source}`);
         document.querySelector('iframe').src = framesData[sourceIndex].source;
 
-        global.setTimeout(() => {
+        global.setTimeout(function() {
           sourceIndex++;
           if (sourceIndex >= framesData.length) {
             sourceIndex = 0;

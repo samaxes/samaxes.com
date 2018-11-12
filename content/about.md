@@ -48,11 +48,6 @@ Being the Web platform an important part of my daily job, I am a strong advocate
 [JSCalendar themes](http://code.google.com/p/jscalendar-themes/)
 : Clean and minimalist JSCalendar themes.
 
-## Tutorials
-
-[PHP Tutorial](http://www.php-tutorials.info/)
-: PHP Tutorial for the Absolute Beginner.
-
 ## Talks
 
 **OSDOC 2013** - Lisbon, Portugal - July 11, 2013

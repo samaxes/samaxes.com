@@ -5,19 +5,12 @@ title: About
 menu: main
 ---
 
-My name is [Samuel Santos](https://plus.google.com/+samaxes) and I live in Coimbra, Portugal. I'm currently working as a Principal Engineer at [Present Technologies](http://www.present-technologies.com/).
+My name is [Samuel Santos](https://plus.google.com/+samaxes) and I live in Coimbra, Portugal. I'm the Chief Technology Officer at [Present Technologies](https://www.present-technologies.com/) where I lead the engineering team with a focus on continuous learning, iteration, stimulating innovation, and knowledge sharing.
 
-I have been extensively involved in scalable enterprise web applications for the past couple of years and continually invest time in mastering the Java EE platform.
+With an extensive Software development experience, I'm passionate about Open Source, Java and Web technologies. I've contributed to various JBoss community projects and participate in several W3C working groups as invited expert.
+I'm the JUG leader of [Portugal Java User Group](https://jug.pt/), co-founder of the [JNation conference](https://jnation.pt/) in Portugal, and co-organizer of [Undefine.js](https://www.meetup.com/Undefined-js/), a meetup group for JavaScript enthusiasts.
 
-Being the Web platform an important part of my daily job, I am a strong advocate for Web standards, and spend some of my (free) time working with the following organizations:
-
-* [W3C](http://www.w3.org/)
-  * [HTML Working Group](http://www.w3.org/html/wg/) (since July 2007)
-  * [WebApps Working Group](http://www.w3.org/2008/webapps/) (since March 2009)
-* [WHATWG](http://www.whatwg.org/)
-* [Web Standards Group](http://webstandardsgroup.org/)
-
-[samaxes.com](http://samaxes.com/) started out life in March 2006 as an informal way for me to keep record of Java and Web technologies. Gradually, it evolved into becoming both a showcase site as well as a place for me to add my voice to the web.
+[samaxes.com](https://samaxes.com/) started out life in March 2006 as an informal way for me to keep record of Java and Web technologies. Gradually, it evolved into becoming both a showcase site as well as a place for me to add my voice to the web.
 
 ## Projects
 

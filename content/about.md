@@ -8,7 +8,7 @@ menu: main
 My name is [Samuel Santos](https://plus.google.com/+samaxes) and I live in Coimbra, Portugal. I'm the Chief Technology Officer at [Present Technologies](https://www.present-technologies.com/) where I lead the engineering team with a focus on continuous learning, iteration, stimulating innovation, and knowledge sharing.
 
 With an extensive Software development experience, I'm passionate about Open Source, Java and Web technologies. I've contributed to various JBoss community projects and participate in several W3C working groups as invited expert.
-I'm the JUG leader of [Portugal Java User Group](https://jug.pt/), co-founder of the [JNation conference](https://jnation.pt/) in Portugal, and co-organizer of [Undefine.js](https://www.meetup.com/Undefined-js/), a meetup group for JavaScript enthusiasts.
+I'm the JUG leader of [Portugal Java User Group](https://jug.pt/), co-founder of the [JNation conference](https://jnation.pt/) in Portugal, and co-organizer of [Undefined.js](https://www.meetup.com/Undefined-js/), a meetup group for JavaScript enthusiasts.
 
 [samaxes.com](https://samaxes.com/) started out life in March 2006 as an informal way for me to keep record of Java and Web technologies. Gradually, it evolved into becoming both a showcase site as well as a place for me to add my voice to the web.
 

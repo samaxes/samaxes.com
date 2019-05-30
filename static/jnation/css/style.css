@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+main,
+iframe {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main {
+  background-position: center;
+  background-size: cover;
+}
+
+iframe {
+  border: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #e74c3c;
+  border-radius: 20px 0 0 0;
+  bottom: 0;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  padding: 20px 50px;
+  position: fixed;
+  right: 0;
+  text-align: right;
+  text-rendering: optimizeLegibility;
+}

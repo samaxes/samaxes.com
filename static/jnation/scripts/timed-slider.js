@@ -1,0 +1,2 @@
+var JNationTimedSlider=function(){"use strict";return function(e,t){var n=function(){var t=new Date,n=("0"+t.getHours()).slice(-2)+":"+("0"+t.getMinutes()).slice(-2);if(e)for(var i=e.length-1;i>=0;i--)if(n>=e[i].time){document.querySelector("main").style.backgroundImage='url("../../images/'.concat(e[i].image,'")');break}};window.setInterval(function(){n()},t),n()}}();
+//# sourceMappingURL=timed-slider.js.map
